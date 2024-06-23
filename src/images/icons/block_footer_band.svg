@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.813" height="163.873" viewBox="0 0 1920.813 163.873">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.638" x2="1" y2="0.647" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#110f15"/>
+      <stop offset="0.512" stop-color="#0051c5"/>
+      <stop offset="1" stop-color="#100e14"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_30446" data-name="Group 30446" transform="matrix(0.999, -0.035, 0.035, 0.999, -101.068, -3049.413)">
+    <rect id="Rectangle_17019" data-name="Rectangle 17019" width="1917.843" height="97" transform="translate(-7 3118)" fill="url(#linear-gradient)"/>
+    <g id="Group_30411" data-name="Group 30411" transform="translate(-8.626 3143)">
+      <text id="Application_IOS" data-name="Application IOS" transform="translate(401.306 35)" fill="#fff" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">APPLICATION IOS</tspan></text>
+      <text id="Integration_apis" data-name="Integration apis" transform="translate(0 35)" fill="#fff" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">INTEGRATION APIS</tspan></text>
+      <text id="Application_Android" data-name="Application Android" transform="translate(779.934 35)" fill="#fff" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">APPLICATION ANDROID</tspan></text>
+      <text id="Application_hybride" data-name="Application hybride" transform="translate(1233.55 35)" fill="#fff" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">APPLICATION HYBRIDE</tspan></text>
+      <text id="Application_" data-name="Application " transform="translate(1690.47 35)" fill="#fff" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">APPLICATION </tspan></text>
+    </g>
+  </g>
+</svg>

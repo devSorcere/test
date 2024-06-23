@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1160" height="468" viewBox="0 0 1160 468">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.842" r="0.5" gradientTransform="translate(0 0.046) scale(1 0.908)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#37319d"/>
+      <stop offset="1" stop-color="#020f11"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_31334" data-name="Group 31334" transform="translate(-400 -4400)">
+    <g id="Group_31186" data-name="Group 31186" transform="translate(0 -39)">
+      <g id="forme-prix-services-viollette">
+        <g id="Rectangle_17235" data-name="Rectangle 17235" transform="translate(440 4479)" fill="none" stroke="#5e55f2" stroke-width="11">
+          <rect width="1120" height="428" rx="60" stroke="none"/>
+          <rect x="5.5" y="5.5" width="1109" height="417" rx="54.5" fill="none"/>
+        </g>
+        <g id="Group_30368" data-name="Group 30368" transform="translate(0 429)">
+          <rect id="Rectangle_14525" data-name="Rectangle 14525" width="1120" height="428" rx="60" transform="translate(400 4010)" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

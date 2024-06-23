@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_660" data-name="Ellipse 660" cx="10" cy="10" r="10" transform="translate(-0.039)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="bandeau-francais" transform="translate(0.039)" clip-path="url(#clip-path)">
+    <g id="icons8-france" transform="translate(-3.361 -1.429)">
+      <path id="Path_27854" data-name="Path 27854" d="M16,9H27.429V30.429H16Z" transform="translate(-8.354 -9)" fill="#eceff1"/>
+      <path id="Path_27855" data-name="Path 27855" d="M32,9H42V30.429H32Z" transform="translate(-15.278 -9)" fill="#ff3d00"/>
+      <path id="Path_27856" data-name="Path 27856" d="M2,9H12V30.429H2Z" transform="translate(-2 -9)" fill="#3f51b5"/>
+    </g>
+  </g>
+</svg>

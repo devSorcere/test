@@ -1,0 +1,7 @@
+<svg id="cercle-croix-icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="icons8-cancel" d="M18.544,17.8a.526.526,0,0,1,0,.741.529.529,0,0,1-.741,0l-3.8-3.8-3.8,3.8a.529.529,0,0,1-.741,0,.526.526,0,0,1,0-.741l3.8-3.8-3.8-3.8a.524.524,0,1,1,.741-.741l3.8,3.8,3.8-3.8a.524.524,0,1,1,.741.741l-3.8,3.8Z" transform="translate(-2 -2)" fill="#fff"/>
+  <g id="Ellipse_722" data-name="Ellipse 722" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="0.5">
+    <circle cx="12" cy="12" r="12" stroke="none"/>
+    <circle cx="12" cy="12" r="11.75" fill="none"/>
+  </g>
+</svg>

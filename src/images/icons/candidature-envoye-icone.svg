@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66.984" height="66.984" viewBox="0 0 66.984 66.984">
+  <g id="candidature-envoye-icone" transform="translate(0.5 0.5)">
+    <circle id="Ellipse_619" data-name="Ellipse 619" cx="32.978" cy="32.978" r="32.978" transform="matrix(1, 0, 0, 1, 0, 0)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Paper" transform="translate(18.983 15.983)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M6.54-.75H17.865a.765.765,0,0,1,.562.246l8.622,9.331a.76.76,0,0,1,.2.516v16.21A8.063,8.063,0,0,1,25.2,30.887a6.784,6.784,0,0,1-5.057,2.344H6.54A7.412,7.412,0,0,1-.75,25.552V6.606a7.316,7.316,0,0,1,2.172-5.2A7.21,7.21,0,0,1,6.54-.75ZM17.53.772H6.54A5.691,5.691,0,0,0,2.5,2.48,5.805,5.805,0,0,0,.777,6.606V25.552a6.364,6.364,0,0,0,1.669,4.382A5.552,5.552,0,0,0,6.54,31.708h13.6a5.275,5.275,0,0,0,3.921-1.839,6.525,6.525,0,0,0,1.663-4.316V9.639Z" transform="translate(0.75 0.77)" fill="#fff"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M7.172,9.939q-1.1,0-2.873,0A5.069,5.069,0,0,1-.75,4.872V0A.75.75,0,0,1,0-.75.75.75,0,0,1,.75,0V4.872A3.567,3.567,0,0,0,4.3,8.435c3.152.007,4.425,0,4.569,0a.75.75,0,0,1,.093,1.5C8.873,9.936,8.273,9.939,7.172,9.939Z" transform="translate(18.327 0.75)" fill="#fff"/>
+      <path id="Stroke_5" data-name="Stroke 5" d="M9.039,1.25H0A.75.75,0,1,1,0-.25H9.039a.75.75,0,0,1,0,1.5Z" transform="translate(8.723 22.916)" fill="#fff"/>
+      <path id="Stroke_7" data-name="Stroke 7" d="M5.621,1.25H0A.75.75,0,0,1-.75.5.75.75,0,0,1,0-.25H5.621a.75.75,0,0,1,0,1.5Z" transform="translate(8.688 14.152)" fill="#fff"/>
+    </g>
+    <g id="Group_29310" data-name="Group 29310" transform="translate(-610.17 -230.481)">
+      <circle id="Ellipse_651" data-name="Ellipse 651" cx="8.5" cy="8.5" r="8.5" transform="matrix(1, 0, 0, 1, 648.648, 266.962)" fill="#d9f777"/>
+      <g id="Group_28119" data-name="Group 28119" transform="translate(653.254 271.216)">
+        <g id="Group_28118" data-name="Group 28118">
+          <path id="Path_27102" data-name="Path 27102" d="M327.217,372.263a.865.865,0,0,1-.714-.376l-2.674-3.906a.865.865,0,1,1,1.428-.978l1.846,2.7,2.763-5.491a.865.865,0,1,1,1.546.778l-3.422,6.8a.865.865,0,0,1-.715.474Z" transform="translate(-323.677 -363.732)" fill="#020f11"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14920" data-name="Rectangle 14920" width="21" height="21" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="loupe-rechercher-icone" opacity="0.6">
+    <g id="Group_28384" data-name="Group 28384" clip-path="url(#clip-path)">
+      <path id="Path_27190" data-name="Path 27190" d="M2.912,2.916a9.954,9.954,0,1,1,0,14.077,9.955,9.955,0,0,1,0-14.077M15.905,15.909a8.421,8.421,0,1,0-11.91,0,8.42,8.42,0,0,0,11.91,0" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_27191" data-name="Path 27191" d="M20.327,21.074a.744.744,0,0,1-.528-.218l-3.508-3.5A.747.747,0,0,1,17.347,16.3l3.507,3.5a.747.747,0,0,1-.528,1.275" transform="translate(-0.073 -0.074)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

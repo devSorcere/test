@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aide Projet | toutes les formations</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+</head>
+
+<body>
+    <include src="./partials/filtre.html"></include>
+    <div class="filtre-main" onclick="closetab()">
+        <include src="./partials/header.html"></include>
+        <main>
+            <include src="./partials/breadcrumb-dev-web-mobile.html"></include>
+            <include src="./partials/filter-formations-dev.html"></include>
+            <include src="./partials/experts.html"></include>
+            <include src="./partials/programme.html"></include>
+
+        </main>
+        <include src="./partials/footer.html"></include>
+    </div>
+    <script>
+        function closetab() {
+            if (!document.querySelector('.edit-container').classList.contains('hide')) {
+                var tab = document.querySelector('.edit-container');
+            tab.classList.add('hide');
+            var Filtre = document.querySelector('.filtre-main');
+                    Filtre.classList.toggle('opacity-85');
+            }
+           
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aide Projet | toutes les formations</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+</head>
+
+<body>
+    <div class="edit-container relative">
+        <div class="flex justify-between items-center  p-10">
+            <p class="p32 Gelica-light">Filtrer</p>
+            <a href="#"
+                class="h-[32px] w-[32px] rounded-full flex items-center justify-center border border-white duration-200 hover:text-black hover:bg-white  hover:border-white">
+                <i class="icon icon-close text-[12px]"></i>
+            </a>
+        </div>
+        <div class="devider"></div>
+        <div class="flex justify-center">
+            <div class="w-570 pt-10">
+                <p class="text-2xl Gelica-light pb-4">Catégorie</p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="flex gap-3">
+                        <label class="container-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+
+                        </label>
+                        <p class="Degular-medium text-base">Développement web et mobile</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <label class="container-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+
+                        </label>
+                        <p class="Degular-medium text-base">Marketing digital</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <label class="container-checkbox">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+
+                        </label>
+                        <p class="Degular-medium text-base">UX/UI Design</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <label class="container-checkbox">
+                            <input type="checkbox" >
+                            <span class="checkmark"></span>
+
+                        </label>
+                        <p class="Degular-medium text-base">Culture digital</p>
+                    </div>
+                </div>
+                <p class="text-2xl Gelica-light pt-12 pb-4">Type de cours</p>
+                <div class=" flex flex-row gap-4">
+                    <div class="flex flex-col justify-center items-center lives-layer">
+                        <img src="icons/camera-icone.svg" alt="">
+                        <p class="Degular-regular text-2xl">Lives</p>
+                        <p class="Degular-regular text-sm">Des cours en direct planifiés</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center cours-layer">
+                        <img src="icons/cours-video.svg" alt="">
+                        <p class="Degular-regular text-2xl">Cours</p>
+                        <p class="Degular-regular text-sm">Suivez des cours à votre rythme</p>
+                    </div>
+                </div>
+                
+
+
+            </div>
+
+        </div>
+
+        <div class="flex flex-col">
+            <div class="devider absolute w-full bottom-120"></div>
+            <div class="flex justify-between items-center">
+                <p class="text-lg Degular-medium  absolute bottom-8 left-8 cancel-btn">Annuler</p>
+                <p class="text-lg Degular-medium save-btn  absolute bottom-8 right-8">Appliquer</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="opacity-85">
+        <include src="./partials/header.html"></include>
+        <main>
+            <include src="./partials/breadcrumb.html"></include>
+            <include src="./partials/filter-formations.html"></include>
+            <include src="./partials/experts.html"></include>
+            <include src="./partials/programme.html"></include>
+
+        </main>
+        <include src="./partials/footer.html"></include>
+    </div>
+
+</body>
+
+</html>

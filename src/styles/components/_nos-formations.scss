@@ -1,0 +1,31 @@
+.nos-formations {
+  &__mobile-slider {
+    .swiper-slide {
+      width: 310px;
+    }
+    .swiper-navigation {
+      @apply mt-4 flex justify-center;
+
+      .swiper-button-prev, .swiper-button-next {
+        @apply inline-block mx-2 cursor-pointer;
+      }
+    }
+  }
+  &__desktop-slider {
+    @apply  px-8 pt-16;
+    .swiper-slide {
+      width: auto;
+      display: inline-block;
+    }
+
+    + .swiper-navigation-desktop {
+      @apply flex absolute;
+      top: -66px;
+      right: 32px;
+
+      .swiper-button-prev, .swiper-button-next {
+        @apply inline-block mx-2 cursor-pointer;
+      }
+    }
+  }
+}

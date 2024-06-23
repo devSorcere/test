@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="cercle-ajustement" transform="translate(-247 -3927.106)">
+    <g id="Ellipse_705" data-name="Ellipse 705" transform="translate(247 3927.106)" fill="#fff" stroke="#020f11" stroke-width="1" opacity="0.1">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.5" fill="none"/>
+    </g>
+    <path id="sliders-horizontal" d="M33.583,55.944h6.531a6.318,6.318,0,0,0,12.271,0H68.417a1.6,1.6,0,0,0,0-3.2H52.385a6.318,6.318,0,0,0-12.271,0H33.583a1.6,1.6,0,0,0,0,3.2Zm12.667-4.8a3.2,3.2,0,1,1-3.167,3.2A3.182,3.182,0,0,1,46.25,51.147ZM68.417,71.931H65.052a6.318,6.318,0,0,0-12.271,0h-19.2a1.6,1.6,0,0,0,0,3.2h19.2a6.318,6.318,0,0,0,12.271,0h3.365a1.6,1.6,0,0,0,0-3.2Zm-9.5,4.8a3.2,3.2,0,1,1,3.167-3.2A3.182,3.182,0,0,1,58.917,76.727Z" transform="translate(236 3903.169)" fill="#fff"/>
+  </g>
+</svg>

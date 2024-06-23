@@ -1,0 +1,285 @@
+<section class="a-container mb-[56px] lg:mb-[140px]">
+    <div class="lg:flex justify-between items-center mb-16 mt-[41px]">
+        <h4 class="font-gelica font-light text-[80px] lg:text-[80px] leading-[40px] lg:leading-[85px] w-full">
+            Toutes les <span class="text-mindaro">formations</span>
+        </h4>
+        <div class="flex justify-end">
+            <div class="select mr-3">
+                <div class="label" data-value="Recommandés">Recommandés</div>
+                <i class="icon icon-chevron-bottom"></i>
+                <div class="select__options">
+                    <form action="#">
+                        <label class="checkbox mb-2 last-of-type:mb-0" for="Recommandés">
+                            <input type="checkbox" name="Recommandés" id="Recommandés" />
+                            Recommandés
+                        </label>
+                        <label class="checkbox mb-2 last-of-type:mb-0" for="Nouveaux">
+                            <input type="checkbox" name="Nouveaux" id="Nouveaux" />
+                            Nouveaux
+                        </label>
+                        <label class="checkbox mb-2 last-of-type:mb-0" for="bientot">
+                            <input type="checkbox" name="bientot" id="bientot" />
+                            Bientôt terminés
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="select " onclick="toggleFiltre()">
+                <div class="label" data-value="filter">Filter</div>
+                <img class="w-[40px] h-[40px]" src="./images/icons/filter.svg" alt="">
+                <!-- <div class="select__options">
+                    <form action="#">
+                        <label class="checkbox mb-2 last-of-type:mb-0" for="Recommandés-2">
+                            <input type="checkbox" name="Recommandés-2" id="Recommandés-2" />
+                            Recommandés
+                        </label>
+                        <label class="checkbox mb-2 last-of-type:mb-0" for="Nouveaux-2">
+                            <input type="checkbox" name="Nouveaux-2" id="Nouveaux-2" />
+                            Nouveaux
+                        </label>
+                        <label class="checkbox mb-2 last-of-type:mb-0" for="bientot-2">
+                            <input type="checkbox" name="bientot-2" id="bientot-2" />
+                            Bientôt terminés
+                        </label>
+                    </form>
+                </div> -->
+
+            </div>
+            <script>
+                function toggleFiltre() {
+                    var FiltreContainer = document.querySelector('.edit-container');
+                    FiltreContainer.classList.toggle('hide');
+
+                    var Filtre = document.querySelector('.filtre-main');
+                    Filtre.classList.toggle('opacity-85');
+                }
+            </script>
+        </div>
+    </div>
+    <div class="lg:mx-[-37px] lg:w-[calc(100%+74px)] p-[37px] relative justify-center">
+        <img class="rounded-[60px] bg-corn-flower 2xl:bg-transparent 2xl:rounded-none inline-block absolute z-0 top-0 left-0 w-full h-full"
+            src="./images/forme-toutes-formations-violet.svg" alt="formations-desktiop-bg"> <!--Tabs navigation-->
+        <div class="flex  flex-wrap flex_row relative z-1 gap-8 w-[1800px]">
+            <div class="inline-flex justify-center gap-8 flex-wrap w-auto xl:w-[832px]">
+                <div class="article">
+                    <div class="article__img-wrapper relative">
+                        <a href="#" class="article__img">
+                            <img src="./images/8-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="absolute top-[14px] bg-[#020F11] bg-opacity-20 rounded-full flex items-center justify-center right-[14px] w-[40px] h-[40px]">
+                            <img class="w-[30px] h-[30px]" src="./images/icons/favoris.svg" alt="">
+                        </div>
+                        <div class="date">
+                            <span class="date__day">3 Fév</span>
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    
+                    <h5 class="article__title">
+                        <a href="#">Analyste en cybersécurité</a>
+                    </h5>
+                </div>
+                <div class="article">
+                    <div class="article__img-wrapper relative">
+                        <a href="#" class="article__img">
+                            <img src="./images/9-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="absolute top-[14px] bg-[#020F11] bg-opacity-20 rounded-full flex items-center justify-center right-[14px] w-[40px] h-[40px]">
+                            <img class="w-[30px] h-[30px]" src="./images/icons/favoris.svg" alt="">
+                        </div>
+                        <div class="date">
+                            <span class="text-[40px] font-bold font-degular flex flex-col">3 Fév</span>
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">Wordpress</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="inline-flex justify-center gap-8 flex-wrap w-auto xl:w-[832px]">
+                <div class="article article--xl">
+                    <div class="article__img-wrapper relative">
+                        <a href="#" class="article__img">
+                            <img src="./images/16-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="absolute top-[14px] bg-[#020F11] bg-opacity-20 rounded-full flex items-center justify-center right-[14px] w-[40px] h-[40px]">
+                            <img class="w-[30px] h-[30px]" src="./images/icons/favoris.svg" alt="">
+                        </div>
+                        <div class="absolute bottom-[2px] right-2 text-right">
+                            <div class="flex flex-row">
+                                <p class="text-[40px] font-bold font-degular">3 Fév</p>
+                                <span class="text-[27px] pb-6 font-bold font-degular">/24</span>
+                            </div>
+
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">HTML/CSS3</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="inline-flex justify-center gap-8 flex-wrap w-auto xl:w-[832px]">
+                <div class="article article--xl">
+                    <div class="article__img-wrapper relative">
+                        <a href="#" class="article__img">
+                            <img src="./images/61-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="absolute top-[14px] bg-[#020F11] bg-opacity-20 rounded-full flex items-center justify-center right-[14px] w-[40px] h-[40px]">
+                            <img class="w-[30px] h-[30px]" src="./images/icons/favoris.svg" alt="">
+                        </div>
+                        <div class="absolute bottom-[2px] right-2 text-right">
+                            <div class="flex flex-row">
+                                <p class="text-[40px] font-bold font-degular">3 Fév</p>
+                                <span class="text-[27px] pb-6 font-bold font-degular">/24</span>
+                            </div>
+
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">UX Designer</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="inline-flex justify-center gap-8 flex-wrap w-auto xl:w-[832px]">
+                <div
+                    class="bg-interrogations w-[309px] h-[408px] lg:w-[400px] lg:h-[524px] bg-no-repeat bg-[length:100%_100%]">
+                    <div class="p-8 mb-5 lg:mb-0 pr-[50px] lg:pr-[120px]">
+                        <h5 class="font-gelica text-2xl lg:text-[32px] lg:leading-[40px] mb-4 lg:mb-6">Des
+                            interrogations ou des besoins
+                            particuliers ?</h5>
+                        <p class="text-md lg:text-xl leading-5 mb-4">Nous sommes à votre écoute.</p>
+                        <img class="w-[100px] lg:w-[153px] ml-3" src="./images/fleche-interrogations_result.webp"
+                            alt="fleche-interrogations_result">
+                    </div>
+                    <div class="pr-8 lg:pr-14 text-right">
+                        <p class="mr-4 mb-2 text-xl leading-6">Appelez-nous au :</p>
+                        <p class="text-[18px] leading-5 text-mindaro flex items-center justify-end">
+                            <i class="icon icon-phone-call text-base mr-2"></i>
+                            06 61 47 39 86
+                        </p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="article__img-wrapper relative">
+                        <a href="#" class="article__img">
+                            <img src="./images/4-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="absolute top-[14px] bg-[#020F11] bg-opacity-20 rounded-full flex items-center justify-center right-[14px] w-[40px] h-[40px]">
+                            <img class="w-[30px] h-[30px]" src="./images/icons/favoris.svg" alt="">
+                        </div>
+                        <div class="date">
+                            <span class="date__day">19 Déc</span>
+                            <span class="text-xl Degular-regular">10 jours · 20h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">Wordpress</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="inline-flex justify-center gap-8 flex-wrap w-auto xl:w-[832px]">
+                <div class="article article--sm">
+                    <div class="article__img-wrapper">
+                        <a href="#" class="article__img">
+                            <img src="./images/14-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="date">
+                            <span class="date__day">2 Jan</span>
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">ReactJs</a>
+                    </h5>
+                </div>
+                <div class="article article--sm">
+                    <div class="article__img-wrapper">
+                        <a href="#" class="article__img">
+                            <img src="./images/14-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="date">
+                            <span class="date__day">2 Jan</span>
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">ReactJs</a>
+                    </h5>
+                </div>
+                <div class="article article--sm">
+                    <div class="article__img-wrapper">
+                        <a href="#" class="article__img">
+                            <img src="./images/14-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="date">
+                            <span class="date__day">2 Jan</span>
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">ReactJs</a>
+                    </h5>
+                </div>
+                <div class="article article--sm">
+                    <div class="article__img-wrapper">
+                        <a href="#" class="article__img">
+                            <img src="./images/14-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="date">
+                            <span class="date__day">2 Jan</span>
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">ReactJs</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="inline-flex justify-center gap-8 flex-wrap w-auto xl:w-[832px]">
+                <div class="article article--2xl">
+                    <div class="article__img-wrapper">
+                        <a href="#" class="article__img">
+                            <img src="./images/4-formateur_result.webp" alt="image">
+                        </a>
+                        <div class="absolute bottom-[2px] right-2 text-right">
+                            <div class="flex flex-row">
+                                <p class="text-[40px] font-bold font-degular">3 Fév</p>
+                                <span class="text-[27px] pb-6 font-bold font-degular">/24</span>
+                            </div>
+
+                            <span class="text-xl Degular-regular">24 jours · 48h</span>
+                        </div>
+                    </div>
+                    <h5 class="article__title">
+                        <a href="#">Wordpress</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="relative z-1 text-white mt-10">
+            <div class="flex justify-center items-center gap-[29px]">
+                <!-- for disabled arrow : add "opacity-30 pointer-events-none" classes -->
+                <a href="#" class="pointer-events-none cursor-default"><i
+                        class="icon icon-navigation-left-carre opacity-30 "></i></a>
+
+                <div class="inline-flex justify-between gap-2">
+                    <!-- for selected page : add "bg-white text-black pointer-events-none" classes -->
+                    <a href="#"
+                        class="font-degular font-semibold rounded-full text-2xl inline-flex justify-center items-center h-[40px] w-[40px] bg-white text-black pointer-events-none pb-1">1</a>
+
+                    <a href="#"
+                        class="Degular-regular rounded-full text-2xl inline-flex justify-center items-center h-[40px] w-[40px]">2</a>
+                </div>
+
+                <a class="hover:bg-white hover:rounded-xl hover:text-[#020F11]" href="#"><i
+                        class="icon icon-navigation-right-carre"></i></a>
+            </div>
+        </div>
+        <p class="text-center text-base text-white relative mt-4">
+            <span class="font-semibold">10</span> formations sur —
+        </p>
+    </div>
+</section>

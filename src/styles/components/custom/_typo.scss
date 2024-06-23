@@ -1,0 +1,56 @@
+$light: 200;
+$regular: 300;
+$normal: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$black: 900;
+
+.w-200 {
+    font-weight: $light !important;
+}
+
+.w-300 {
+    font-weight: $regular !important;
+}
+
+.w-400 {
+    font-weight: $normal !important;
+}
+
+.w-500 {
+    font-weight: $medium !important;
+}
+
+.w-600 {
+    font-weight: $semibold !important;
+}
+
+.w-700 {
+    font-weight: $bold !important;
+}
+
+.w-900 {
+    font-weight: $black !important;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.uper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.dashed {
+    text-decoration: dashed;
+}

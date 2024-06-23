@@ -1,0 +1,260 @@
+<div style="position: relative;" class="header_">
+    <header style="background-color: #020f11; z-index: 99999;" class="bg-gray-800 text-white p-4 fixed top-0 w-full">
+        <div class="a-container">
+            <div class="flex justify-between items-center">
+                <div class="flex justify-between lg:justify-start w-full lg:w-auto">
+                    <a href="/">
+                        <h1 class="inline-block w-[115px] lg:w-[175px] mr-[70px]">
+                            <img src="./images/Aideprojet-logo-blanc.svg" alt="logo">
+                        </h1>
+                    </a>
+                    <a href="#" class="lg:hidden"><i class="icon icon-burger-menu text-xl"></i></a>
+                    <nav class="navigation">
+                        <a href="./formations.html" class="navigation--item is-parent">Formations <i
+                                class="icon icon-chevron-bottom"></i></a>
+                        <a href="#" class="navigation--item is-parent">Services <i
+                                class="icon icon-chevron-bottom"></i></a>
+                        <a href="#" class="navigation--item">Nous contacter</a>
+                    </nav>
+                </div>
+                <div class="hidden fl_row gap-4">
+                    <div class="notifications-box ">
+                        <div class="actions-box-header notication-icon" onclick="toggleNotifications()">
+                            <img src="icons/Notification.svg" alt="">
+                        </div>
+                        <div class="notifications-container hide">
+                            <div class="overlay" onclick="toggleNotifications()"></div>
+                            <div class="noti-wrapper  fl_col jc_s gp24">
+                                <div class="fl_col gp20">
+                                    <div class="noti-header">
+                                        <p class="p32 gelica">Notifications</p>
+                                    </div>
+                                    <div class="noti-body fl_col gp24 degular ">
+                                        <div class="noti-body-head fl_row jc_s ai_c">
+                                            <div class="tab fl_row ai_c">
+                                                <p class="p16 active-tab">Tout</p>
+                                                <p class="p16">Non lu</p>
+                                            </div>
+                                            <p class="p16 txt_primary w-500">Tout marquer comme lu</p>
+                                        </div>
+                                        <div class="listing-notifications fl_col gp16">
+                                            <div class="card-notification paiment-notification">
+                                                <div class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                    <div class="fl_row gp17 ai_c noti-content">
+                                                        <div class="noti-img">
+                                                            <img src="icons/download-icon-arrow-pink.svg" alt="">
+                                                        </div>
+                                                        <div class="noti-info fl_col gp16">
+                                                            <div class="fl_col gp8">
+                                                                <p class="info-title p12 w-400">Paiement</p>
+                                                                <p class="noti-description p16">Un paiement
+                                                                    concernant la
+                                                                    formation
+                                                                    <span class="txt_primary">“Analyste en
+                                                                        cybersécurité”</span>
+                                                                </p>
+                                                            </div>
+                                                            <p class="noti-time p12">Il y a 1min</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="noti-right-side fl_col ai_s">
+                                                        <p class="p24 w-500">6 000 €</p>
+                                                    </div>
+                                                    <span class="pending-alert"></span>
+                                                </div>
+                                            </div>
+                                            <div class="card-notification formation-notification">
+                                                <div class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                    <div class="fl_row gp17 ai_c noti-content">
+                                                        <div class="noti-img">
+                                                            <img src="images/homme-femme-site-web.png" alt="">
+                                                        </div>
+                                                        <div class="noti-info fl_col gp16">
+                                                            <div class="fl_col gp8">
+                                                                <p class="info-title p12 w-400">Formation
+                                                                </p>
+                                                                <p class="noti-description p16">Votre cours
+                                                                    démarre d’ici 5min,
+                                                                    préparez vous et rejoignez le live.
+                                                                </p>
+                                                            </div>
+                                                            <p class="noti-time p12">Il y a 1min</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="noti-right-side">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-notification formation-notification">
+                                                <div class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                    <div class="fl_row gp17 ai_c noti-content">
+                                                        <div class="noti-img">
+                                                            <img src="images/homme-femme-site-web.png" alt="">
+                                                        </div>
+                                                        <div class="noti-info fl_col gp16">
+                                                            <div class="fl_col gp8">
+                                                                <p class="info-title p12 w-400">Formation
+                                                                </p>
+                                                                <p class="noti-description p16">David a
+                                                                    écrit un commentaire
+                                                                    dans la
+                                                                    formation
+                                                                    <span class="txt_primary">“Analyste en
+                                                                        cybersécurité”</span>
+                                                                </p>
+                                                            </div>
+                                                            <p class="noti-time p12">Il y a 1min</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="noti-right-side">
+                                                        <button>Répondre</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-notification paiment-notification">
+                                                <div class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                    <div class="fl_row gp17 ai_c noti-content">
+                                                        <div class="noti-img">
+                                                            <img src="icons/download-icon-arrow-pink.svg" alt="">
+                                                        </div>
+                                                        <div class="noti-info fl_col gp16">
+                                                            <div class="fl_col gp8">
+                                                                <p class="info-title p12 w-400">Paiement</p>
+                                                                <p class="noti-description p16">Un paiement
+                                                                    concernant la
+                                                                    formation
+                                                                    <span class="txt_primary">“Analyste en
+                                                                        cybersécurité”</span>
+                                                                </p>
+                                                            </div>
+                                                            <p class="noti-time p12">Il y a 1min</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="noti-right-side fl_col ai_s">
+                                                        <p class="p24 w-500">6 000 €</p>
+                                                    </div>
+                                                    <span class="pending-alert"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="noti-footer">
+                                    <p class="p18 w-600">Afficher toutes les notifications</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn btn--secondary mr-4">S’inscrire</a> -->
+
+                    <div class="Menu-box ">
+                        <div class="connected-profile flex gap-3 p-2" onclick="toggleMenu()">
+                            <img src="images/4-formateur_result.webp" alt="">
+                            <div class="drop-down-arrow h-2 w-4">
+                                <img src="images/icons/dropdown_arrow - white.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="Menu-container hide">
+                            <div class="overlay" onclick="toggleMenu()"></div>
+                            <div class="menu-wrapper fl_col jc_s gp24">
+                                <div class="menu-drop p-2">
+                                    <div class="menu-name flex gap-3 items-center pl-4 mb-2">
+                                        <img src="images/4-formateur_result.webp" alt="">
+                                        <div class="flex flex-col gap-2">
+                                            <p class="Gelica-regular">Marine Robert</p>
+                                            <p class="Degular-medium">Analyste en cybersécurité</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-links mb-2">
+                                        <p class="Degular-regular text-base pl-4 pt-5 mb-6">Cours</p>
+                            
+                                        <div class="menu-nav fl_col gp8 degular txt_grey">
+                                            <ul class="fl_col gp16 txt_grey ml-10">
+                                                <a href="">
+                                                    <li class="Degular-regular flex gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/menu-icone.svg" alt="">
+                                                        Tableau de bord
+                                                    </li>
+                                                </a>
+                                                <a href="">
+                                                    <li class="flex Degular-regular gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/camera-icone.svg" alt="">
+                                                        Cours en direct
+                                                    </li>
+                                                </a>
+                                                <a href="">
+                                                    <li class="flex Degular-regular gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/cours-video.svg" alt="">
+                                                        Cours
+                                                    </li>
+                                                </a>
+                                                <a href="">
+                                                    <li class="flex Degular-regular gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/calendrier.svg" alt="">
+                                                        Mon planning
+                                                    </li>
+                                                </a>
+                                                <a href="">
+                                                    <li class=" flex Degular-regular gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/facture-icone.svg" alt="">
+                                                        Paiements
+                                                    </li>
+                                                </a>
+                                                <a href="">
+                                                    <li class=" flex Degular-regular gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/securité-utilisateur-icone.svg" alt="">
+                                                        Mon profile
+                                                    </li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-settings-links">
+                                        <p class="Degular-regular text-base pl-4 pt-5 mb-6">Mon Compte</p>
+                            
+                                        <div class="menu-nav fl_col gp8 degular txt_grey">
+                                            <ul class="fl_col gp16 txt_grey ml-10">
+                                                <a href="">
+                                                    <li class="Degular-regular flex gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/securité-utilisateur-icone.svg" alt="">
+                                                        Mon compte
+                                                    </li>
+                                                </a>
+                                                <a href="">
+                                                    <li class="flex Degular-regular gap-4 mb-6 text-xl">
+                                                        <img class="opacity-60" src="icons/preferences.svg" alt="">
+                                                        Mes préférences
+                                                    </li>
+                                                </a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="flex items-center gap-4 pl-4 pt-6">
+                                        <img class="w-5 h-5" src="images/icons/icons8-log-out-48.png" alt="">
+                                        <p class="Degular-regular text-title-xsm">Se déconnecter</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function toggleNotifications() {
+                        var notificationsContainer = document.querySelector('.notifications-container');
+                        notificationsContainer.classList.toggle('hide');
+                    }
+
+                    function toggleMenu() {
+                        var notificationsContainer = document.querySelector('.Menu-container');
+                        notificationsContainer.classList.toggle('hide');
+
+                        var dropdownArrow = document.querySelector('.drop-down-arrow img');
+                        dropdownArrow.classList.toggle('rotate-180');
+                    }
+                </script>
+            </div>
+        </div>
+    </header>
+</div>

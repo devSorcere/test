@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aide Projet | toutes les formations</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+</head>
+<body>
+    <main id="dashboard">
+        <div class="dashboard-layout">
+            <div class="right-side fl_col gp20">
+                <section class="header-dashboard">
+    <div class="header-dashboard-wrapper fl_row jc_s pd28 ai_c">
+        <div class="fl_row jc_s ai_c return-item">
+            <div class="return fl_row gp15">
+                <img src="./images/icons/fleche-left.svg" alt="">
+                <p class="p21">Retour</p>
+            </div>
+            <div class="title fl_col ai_c">
+                <p class=" p32 gelica w-200">Analyste en cybersécurité</p>
+                <span class="p16 degular text_center">2 jan - 27 fév</span>
+            </div>
+
+            <div class="progress-bar">
+                <div></div>
+            </div>
+        </div>
+        <div class="user-nav fl_row gp16">
+            <div class="fl_row gp16 actions">
+                <div class="actions-box"> <img src="./images/icons/loupe-icone.svg" alt=""></div>
+                <div class="notifications-box ">
+                    <div class="actions-box notication-icon" onclick="toggleNotifications()">
+                        <img src="./images/icons/Notification.svg" alt="">
+                    </div>
+                    <div class="notifications-container hide">
+                        <div class="overlay" onclick="toggleNotifications()"></div>
+                        <div class="noti-wrapper fl_col jc_s gp24">
+                            <div class="fl_col gp20">
+                                <div class="noti-header">
+                                    <p class="p32 gelica">Notifications</p>
+                                </div>
+                                <div class="noti-body fl_col gp24 degular ">
+                                    <div class="noti-body-head fl_row jc_s ai_c">
+                                        <div class="tab fl_row ai_c">
+                                            <p class="p16 active-tab">Tout</p>
+                                            <p class="p16">Non lu</p>
+                                        </div>
+                                        <p class="p16 txt_primary w-500">Tout marquer comme lu</p>
+                                    </div>
+                                    <div class="listing-notifications fl_col gp16">
+                                        <div class="card-notification paiment-notification">
+                                            <div class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                <div class="fl_row gp17 ai_c noti-content">
+                                                    <div class="noti-img">
+                                                        <img src="./images/icons/download-icon-arrow-pink.svg" alt="">
+                                                    </div>
+                                                    <div class="noti-info fl_col gp16">
+                                                        <div class="fl_col gp8">
+                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                            <p class="noti-description p16">Un paiement concernant la
+                                                                formation
+                                                                <span class="txt_primary">“Analyste en
+                                                                    cybersécurité”</span>
+                                                            </p>
+                                                        </div>
+                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                    </div>
+                                                </div>
+                                                <div class="noti-right-side fl_col ai_s">
+                                                    <p class="p24 w-500">6 000 €</p>
+                                                </div>
+                                                <span class="pending-alert"></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-notification formation-notification">
+                                            <div class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                <div class="fl_row gp17 ai_c noti-content">
+                                                    <div class="noti-img">
+                                                        <img src="./images/homme-femme-site-web.png" alt="">
+                                                    </div>
+                                                    <div class="noti-info fl_col gp16">
+                                                        <div class="fl_col gp8">
+                                                            <p class="info-title p12 w-400">Formation</p>
+                                                            <p class="noti-description p16">Votre cours démarre d’ici
+                                                                5min,
+                                                                préparez vous et rejoignez le live.
+                                                            </p>
+                                                        </div>
+                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                    </div>
+                                                </div>
+                                                <div class="noti-right-side">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-notification formation-notification">
+                                            <div class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                <div class="fl_row gp17 ai_c noti-content">
+                                                    <div class="noti-img">
+                                                        <img src="./images/homme-femme-site-web.png" alt="">
+                                                    </div>
+                                                    <div class="noti-info fl_col gp16">
+                                                        <div class="fl_col gp8">
+                                                            <p class="info-title p12 w-400">Formation</p>
+                                                            <p class="noti-description p16">David a écrit un commentaire
+                                                                dans la
+                                                                formation
+                                                                <span class="txt_primary">“Analyste en
+                                                                    cybersécurité”</span>
+                                                            </p>
+                                                        </div>
+                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                    </div>
+                                                </div>
+                                                <div class="noti-right-side">
+                                                    <button>Répondre</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-notification paiment-notification">
+                                            <div class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                <div class="fl_row gp17 ai_c noti-content">
+                                                    <div class="noti-img">
+                                                        <img src="./images/icons/download-icon-arrow-pink.svg" alt="">
+                                                    </div>
+                                                    <div class="noti-info fl_col gp16">
+                                                        <div class="fl_col gp8">
+                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                            <p class="noti-description p16">Un paiement concernant la
+                                                                formation
+                                                                <span class="txt_primary">“Analyste en
+                                                                    cybersécurité”</span>
+                                                            </p>
+                                                        </div>
+                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                    </div>
+                                                </div>
+                                                <div class="noti-right-side fl_col ai_s">
+                                                    <p class="p24 w-500">6 000 €</p>
+                                                </div>
+                                                <span class="pending-alert"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="noti-footer">
+                                <p class="p18 w-600">Afficher toutes les notifications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-menu fl_row ai_c gp11 pd9">
+                <img class="user-avatar" src="./images/formateur-profile.png" alt="">
+                <p class="p16">Marine</p>
+                <img class="dropdown-menu" src="./images/icons/dropdown_arrow - white.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function toggleNotifications() {
+        var notificationsContainer = document.querySelector('.notifications-container');
+        notificationsContainer.classList.toggle('hide');
+    }
+</script>
+                <section id="program-details">
+    <div class="wrapper fl_row gp20">
+        <div class="left-side-block fl_col gp20">
+            <div class="img-header starting-live-type">
+                <img class="bg_img streaming-img hide" src="./images/img45457.png" alt="">
+                <img class="bg_img starting-live-img" src="./images/starting-live.png" alt="">
+                <img src="./images/icons/playStream.svg" alt="" class="play-stream hide">
+                <div class="starting-live fl_col gp15">
+                    <p class="p30 gelica">Votre live va bientôt démarrer</p>
+                    <p class="timer">00: <span class="txt_yellow">10mn</span></p>
+                    <div class="fl_col ai_c gp5">
+                        <div class="btn-start">
+                            <p class="p18  degular txt_grey">Démarrer le live</p>
+                            <img src="./images/icons/play-btn.svg" alt="">
+                        </div>
+                        <p class="p12">15 participants sont déjà là</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-box fl_row ai_c jc_s">
+                <div class="tab-program fl_row ai_c gp10 active-tab tab-element" onclick="showTab('program-tab')">
+                    <img class="active-img" src="./images/icons/programIconyellow.svg" alt="">
+                    <img class="inactive-img" src="./images/icons/inactive-programsIcon.svg" alt="">
+                    <p class="p20 pgrey">Programme</p>
+                </div>
+                <div class="tab-comments fl_row ai_c gp10 tab-element" onclick="showTab('comments-tab')">
+                    <img class="active-img" src="./images/icons/activecommentsIcon.svg" alt="">
+                    <img class="inactive-img" src="./images/icons/programIcon.svg" alt="">
+                    <p class="p20 pgrey">Commentaires
+                        <span class="comments-count pgrey">2</span>
+                    </p>
+                </div>
+                <div class="tab-files fl_row ai_c gp10 tab-element" onclick="showTab('files-tab')">
+                    <img class="active-img" src="./images/icons/FilesIconActive.svg" alt="">
+                    <img class="inactive-img" src="./images/icons/filesIcon.svg" alt="">
+                    <p class="p20 pgrey">Fichiers <span class="files-count pgrey">4</span> </p>
+                </div>
+            </div>
+            <div class="program-tab fl_col gp40 ">
+                <div class="programs-listing fl_col gp24">
+                    <div class="card-program fl_row jc_s">
+                        <div class="card-info fl_row gp40 pd40">
+                            <div class="card-content fl_col gp20">
+                                <p class="p32">
+                                    Systèmes et réseaux
+                                </p>
+                                <div class="program-details pgrey fl_col gp15">
+                                    <p class="p24">Fondamentaux des réseaux</p>
+                                    <p class="p24">Fondamentaux des systèmes Linux & Windows</p>
+                                    <p class="p24">Programmation et scripting</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comments-tab fl_col gp15 pd40 rd25 hide">
+                <div class="comments-head fl_col gp26">
+                    <p class="p32"><span class="comments-count">3</span> commentaires</p>
+                    <div class="add-comment">
+                        <img src="./images/icons/comment-icon.svg" alt="">
+                        <input type="text" placeholder="Écrire un commentaire…">
+                    </div>
+                </div>
+                <div class="comments-elements fl_col gp15">
+                    <div class="comment-card  fl_row">
+                        <div class="comment-element pd24 fl_row gp17">
+                            <div class="avatar">
+                                <img src="./images/formateur-profile.png" alt="">
+                            </div>
+                            <div class="right-side fl_col gp15">
+                                <div class="comments-list fl_col gp16">
+                                    <div class="user-name">
+                                        <p class="p20 gelica">Magaly <span style="font-family: Degular !important;"
+                                                class=" date p14 pgrey w-300 ">14 sep. 10:00</span>
+                                        </p>
+                                    </div>
+                                    <div class="comment-data fl_col gp12 degular">
+                                        <div class="fl_col gp12">
+                                            <p class="p16 comment-msg">
+                                                Mariane, dans le live présent vous avez parlé de des coches du modèle
+                                                OSI,
+                                                pouvez-vous me confirmer que c'est bien 8 ?
+                                                Merci pour votre retour :)
+                                            </p>
+                                            <img src="./images/Capture d'écran 2024-02-18 144232.png" alt=""
+                                                class="comment-img rd18">
+                                        </div>
+                                        <div class="comment-action fl_row gp20 jc_s">
+                                            <div class="reply-data fl_row ai_c gp5">
+                                                <img src="./images/icons/arrow-dropdown-comment.svg" alt="">
+                                                <p class="p12 txt_primary"><span class="reply-count">1</span> Réponse
+                                                </p>
+                                            </div>
+                                            <div class="reply-action fl_row ai_c pd10-r-l gp5">
+                                                <img src="./images/icons/comment-icon.svg" alt="">
+                                                <p class="p12">Répondre</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-card  fl_row">
+                        <div class="comment-element pd24 fl_row gp17">
+                            <div class="avatar">
+                                <img src="./images/photo_2024-01-14_21-52-42.jpg" alt="">
+                            </div>
+                            <div class="right-side fl_col gp15">
+                                <div class="comments-list fl_col gp16">
+                                    <div class="user-name">
+                                        <p class="p20 gelica">Mathieu <span style="font-family: Degular !important;"
+                                                class=" date p14 pgrey w-300 ">11 sep. 10:00</span>
+                                        </p>
+                                    </div>
+                                    <div class="comment-data fl_col gp12 degular">
+                                        <div class="fl_col gp12">
+                                            <p class="p16 comment-msg">
+                                                Mariane, dans le live présent vous avez parlé de des coches du modèle
+                                                OSI,
+                                                pouvez-vous me confirmer que c'est bien 8 ?
+                                                Merci pour votre retour :)
+                                            </p>
+                                        </div>
+                                        <div class="comment-action fl_row gp20 jc_s">
+                                            <div class="reply-action fl_row ai_c pd10-r-l gp5">
+                                                <img src="./images/icons/comment-icon.svg" alt="">
+                                                <p class="p12">Répondre</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="files-tab fl_col gp15 pd42 rd25 hide">
+                <div class="files-container fl_col gp24">
+                    <p class="p32 degular">4 Fichiers</p>
+                    <div class="files-cards">
+                        <div class="file-card">
+                            <div class="card-header">
+                                <img src="./images/HGHHFFimage.png" alt="">
+                            </div>
+                            <div class="card-content pd24 fl_col gp20">
+                                <div class="fl_col gp5">
+                                    <p class="file-name p18">IMG_6868.jpg</p>
+                                    <p class="file-date p16 pgrey">12 sept.2023</p>
+                                </div>
+                                <p class="file-size pgrey">1MB</p>
+                            </div>
+
+                            <a class="download-file" href="">
+                                <img src="./images/icons/downloadIcon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="file-card">
+                            <div class="card-header">
+                                <img src="./images/AKLKJLGJ4524image.png" alt="">
+                            </div>
+                            <div class="card-content pd24 fl_col gp20">
+                                <div class="fl_col gp5">
+                                    <p class="file-name p18">IMG_6868.jpg</p>
+                                    <p class="file-date p16 pgrey">12 sept.2023</p>
+                                </div>
+                                <p class="file-size pgrey">1MB</p>
+                            </div>
+
+                            <a class="download-file" href="">
+                                <img src="./images/icons/downloadIcon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="file-card">
+                            <div class="card-header">
+                                <img src="./images/KGHFJGH4.png" alt="">
+                            </div>
+                            <div class="card-content pd24 fl_col gp20">
+                                <div class="fl_col gp5">
+                                    <p class="file-name p18">Sécurité des réseaux</p>
+                                    <p class="file-date p16 pgrey">12 sept.2023</p>
+                                </div>
+                                <p class="file-size pgrey">1MB</p>
+                            </div>
+
+                            <a class="download-file" href="">
+                                <img src="./images/icons/downloadIcon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side-block fl-1">
+            <div class="cards-container pd40 fl_col gp24">
+                <div class="card-header fl_row jc_s ai_c">
+                    <p class="p32">Lives</p>
+                    <div class="tab fl_row ai_c">
+                        <p class="p16 live-tab venir-tab active-tab" onclick="showLiveTab('venir-tab')">À venir</p>
+                        <p class="p16 live-tab passe-tab inactive-tab" onclick="showLiveTab('passe-tab')">Passés</p>
+                    </div>
+                </div>
+                <div class="venir-tab-content">
+                    <div class="card-body">
+                        <div class="cards-listing fl_col gp15">
+                            <div class="single-card fl_row ai_c gp22 active-card ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">1</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">mar. 2 jan · 9h - 11h</p>
+                                    <p class="p21 w-300">Systèmes et réseaux</p>
+                                </div>
+                            </div>
+
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">2</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">mer 3 jan · 9h00 - 11h00</p>
+                                    <p class="p21 w-300">Cybersécurité et du SOC</p>
+                                </div>
+                            </div>
+
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">3</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">mer 3 jan · 14h00 - 15h00</p>
+                                    <p class="p21 w-300">Sécurité des réseaux</p>
+                                </div>
+                            </div>
+
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">4</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">jeu 4 jan · 09h00 - 11h00</p>
+                                    <p class="p21 w-300">Sécurité des réseaux</p>
+                                </div>
+                            </div>
+
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">5</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">ven 5 jan · 09h00 - 11h00</p>
+                                    <p class="p21 w-300">Détection d’intrusion</p>
+                                </div>
+                            </div>
+
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">6</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">lun 8 jan · 09h00 - 11h00</p>
+                                    <p class="p21 w-300">Cryptographie</p>
+                                </div>
+                            </div>
+
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">7</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">mar 9 jan · 09h00 - 11h00</p>
+                                    <p class="p21 w-300">Durcissement des systèmes</p>
+                                </div>
+                            </div>
+                            <div class="single-card fl_row ai_c gp22  ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">8</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">jeu 10 jan · 09h00 - 11h00</p>
+                                    <p class="p21 w-300">Systèmes et réseaux</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="passe-tab-content hide">
+                    <div class="card-body">
+                        <div class="cards-listing fl_col gp15">
+                            <div class="single-card fl_row ai_c gp22 active-card ">
+                                <div class="card-number">
+                                    <p class="p24 pgrey">1</p>
+                                </div>
+                                <div class="card-content fl-1 pd20 fl_col gp10">
+                                    <p class="p15 pgrey">mar. 2 jan · 9h - 11h</p>
+                                    <p class="p21 w-300">Systèmes et réseaux</p>
+                                </div>
+                                <img src="./images/icons/playLiveIconYellow.svg" alt="" class="play-live">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function showTab(tabName) {
+        let tabsToHide = document.querySelectorAll('.program-tab, .comments-tab, .files-tab');
+        tabsToHide.forEach(tab => {
+            if (tab) {
+                tab.classList.add('hide');
+            }
+        });
+
+        let tabToShow = document.querySelector('.' + tabName);
+        if (tabToShow) {
+            tabToShow.classList.remove('hide');
+            let tabLabel = document.querySelector('.' + tabName + '-label');
+            if (tabLabel) {
+                tabLabel.classList.add('active-tab');
+            }
+        }
+    }
+
+    let tabs = document.querySelectorAll(".tab-element");
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            tabs.forEach(function (e) {
+                e.classList.remove("active-tab");
+            });
+            tab.classList.add("active-tab");
+        });
+    });
+
+    function showLiveTab(tabName) {
+
+        let tabsToHide = document.querySelectorAll('.venir-tab-content, .passe-tab-content');
+        tabsToHide.forEach(tab => {
+            if (tab) {
+                tab.classList.add('hide');
+            }
+        });
+
+        let allTabs = document.querySelectorAll('.live-tab');
+        allTabs.forEach(tab => {
+            tab.classList.remove('active-tab');
+        });
+
+        let tabToShow = document.querySelector('.' + tabName + '-content');
+        if (tabToShow) {
+            tabToShow.classList.remove('hide');
+
+            let tabLabel = document.querySelector('.' + tabName);
+            if (tabLabel) {
+                tabLabel.classList.add('active-tab');
+            }
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        showLiveTab('venir-tab');
+    });
+
+    document.querySelector('.btn-start').addEventListener('click', function() {
+        document.querySelector('.streaming-img').classList.remove("hide")
+        document.querySelector('.play-stream').classList.remove("hide")
+        document.querySelector('.starting-live-img').remove()
+        document.querySelector('.starting-live').remove()
+    })
+
+</script>
+            </div>
+        </div>
+    </main>
+</body>

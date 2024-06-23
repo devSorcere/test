@@ -1,0 +1,86 @@
+<div class="edit-container h-full absolute z-5 hide">
+    <div class="flex justify-between items-center  p-10">
+        <p class="p32 Gelica-light">Filtrer</p>
+        <a href="#"
+            class="h-[32px] w-[32px] rounded-full flex items-center justify-center border border-white duration-200 hover:text-black hover:bg-white  hover:border-white" onclick="closetab()">
+            <i class="icon icon-close text-[12px]" ></i>
+        </a>
+    </div>
+    <div class="devider"></div>
+    <div class="flex justify-center">
+        <div class="w-570 pt-10">
+            <p class="text-2xl Gelica-light pb-4">Catégorie</p>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="flex gap-3">
+                    <label class="container-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+
+                    </label>
+                    <p class="Degular-medium text-base">Développement web et mobile</p>
+                </div>
+                <div class="flex gap-3">
+                    <label class="container-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+
+                    </label>
+                    <p class="Degular-medium text-base">Marketing digital</p>
+                </div>
+                <div class="flex gap-3">
+                    <label class="container-checkbox">
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+
+                    </label>
+                    <p class="Degular-medium text-base">UX/UI Design</p>
+                </div>
+                <div class="flex gap-3">
+                    <label class="container-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+
+                    </label>
+                    <p class="Degular-medium text-base">Culture digital</p>
+                </div>
+            </div>
+            <p class="text-2xl Gelica-light pt-12 pb-4">Type de cours</p>
+            <div class=" flex flex-row gap-4">
+                <div class="flex flex-col justify-center items-center lives-layer">
+                    <img src="icons/camera-icone.svg" alt="">
+                    <p class="Degular-regular text-2xl">Lives</p>
+                    <p class="Degular-regular text-sm">Des cours en direct planifiés</p>
+                </div>
+                <div class="flex flex-col justify-center items-center cours-layer">
+                    <img src="icons/cours-video.svg" alt="">
+                    <p class="Degular-regular text-2xl">Cours</p>
+                    <p class="Degular-regular text-sm">Suivez des cours à votre rythme</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="flex flex-col">
+        <div class="devider absolute w-full bottom-120"></div>
+        <div class="flex justify-between items-center">
+            <p class="text-lg Degular-medium  absolute bottom-8 left-8 cancel-btn" onclick="closetab()">Annuler</p>
+            <p class="text-lg Degular-medium save-btn  absolute bottom-8 right-8">Appliquer</p>
+        </div>
+    </div>
+
+    <script>
+        function closetab() {
+            var x = document.querySelector('.edit-container');
+            x.classList.add('hide');
+
+            var Filtre = document.querySelector('.filtre-main');
+                    Filtre.classList.toggle('opacity-85');
+        }
+    </script>
+
+
+</div>

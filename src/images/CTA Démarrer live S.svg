@@ -1,0 +1,11 @@
+<svg id="CTA_Démarrer_live_S" data-name="CTA Démarrer live S" xmlns="http://www.w3.org/2000/svg" width="145" height="37" viewBox="0 0 145 37">
+  <g id="Group_29919" data-name="Group 29919" transform="translate(-31 -2)">
+    <g id="Group_28871" data-name="Group 28871">
+      <g id="Group_29435" data-name="Group 29435">
+        <rect id="Rectangle_14795" data-name="Rectangle 14795" width="145" height="37" rx="18.5" transform="translate(31 2)" fill="#fff" opacity="0.1"/>
+        <text id="Revoir_le_live" data-name="Revoir le live" transform="translate(93 26)" fill="#fff" font-size="16" font-family="Degular-Medium, Degular" font-weight="500" opacity="0.6"><tspan x="-41" y="0">Revoir le live</tspan></text>
+        <path id="Union_201" data-name="Union 201" d="M8.309,12.875a.436.436,0,0,1,0-.6l1.054-1.092H4.517A4.409,4.409,0,0,1,1.323,9.81,4.737,4.737,0,0,1,0,6.5a.418.418,0,0,1,.411-.426A.418.418,0,0,1,.821,6.5a3.769,3.769,0,0,0,3.7,3.83h4.8L8.266,9.238a.436.436,0,0,1,0-.6.4.4,0,0,1,.581,0l1.777,1.841a.437.437,0,0,1,0,.6l-1.733,1.8a.4.4,0,0,1-.581,0ZM13.179,6.5a3.8,3.8,0,0,0-3.755-3.83H4.547L5.614,3.76a.437.437,0,0,1,0,.6.4.4,0,0,1-.581,0l-1.8-1.841a.436.436,0,0,1,0-.606L4.994.123a.4.4,0,0,1,.581,0,.436.436,0,0,1,0,.6L4.5,1.818h4.92a4.5,4.5,0,0,1,3.234,1.369A4.706,4.706,0,0,1,14,6.5a.411.411,0,1,1-.821,0Z" transform="translate(141 14)" fill="#fff" opacity="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

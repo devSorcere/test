@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="32" viewBox="0 0 325 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.94" y1="0.556" x2="0.052" y2="0.58" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#020f11"/>
+      <stop offset="0.502" stop-color="#5dd5ca"/>
+      <stop offset="1" stop-color="#020f11"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_29763" data-name="Group 29763" transform="translate(-1 -101)">
+    <rect id="Rectangle_15141" data-name="Rectangle 15141" width="325" height="32" transform="translate(1 101)" opacity="0.578" fill="url(#linear-gradient)"/>
+    <text id="Compte_client" data-name="Compte client" transform="translate(164 122)" fill="#fff" font-size="14" font-family="Degular-Medium, Degular" font-weight="500"><tspan x="-47" y="0">COMPTE CLIENT</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="cercle-check" transform="translate(-330 -2270)">
+    <circle id="Ellipse_697" data-name="Ellipse 697" cx="40" cy="40" r="40" transform="translate(330 2270)" fill="#ccea6c" opacity="0.2"/>
+    <path id="check-square" d="M54.134,42.366a1.25,1.25,0,0,1,0,1.769l-8.75,8.75a1.25,1.25,0,0,1-1.769,0l-3.75-3.75a1.251,1.251,0,0,1,1.769-1.769L44.5,50.233l7.866-7.867a1.25,1.25,0,0,1,1.769,0ZM62,34.5v25A2.5,2.5,0,0,1,59.5,62h-25A2.5,2.5,0,0,1,32,59.5v-25A2.5,2.5,0,0,1,34.5,32h25A2.5,2.5,0,0,1,62,34.5Zm-2.5,25v-25h-25v25Z" transform="translate(323 2263)"/>
+  </g>
+</svg>

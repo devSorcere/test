@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="122" viewBox="0 0 122 122">
+  <g id="badge-cadnas" transform="translate(-614 -1050.71)">
+    <g id="Ellipse_683" data-name="Ellipse 683" transform="translate(614 1050.71)" fill="#fff" stroke="#5e55f2" stroke-width="1">
+      <circle cx="61" cy="61" r="61" stroke="none"/>
+      <circle cx="61" cy="61" r="60.5" fill="none"/>
+    </g>
+    <path id="lock-key-fill" d="M67.852,22.667H61.333V17.778a9.778,9.778,0,1,0-19.556,0v4.889H35.259A3.259,3.259,0,0,0,32,25.926V48.741A3.259,3.259,0,0,0,35.259,52H67.852a3.259,3.259,0,0,0,3.259-3.259V25.926A3.259,3.259,0,0,0,67.852,22.667ZM53.185,38.684v5.168a1.63,1.63,0,1,1-3.259,0V38.684a4.889,4.889,0,1,1,3.259,0Zm4.889-16.017H45.037V17.778a6.519,6.519,0,1,1,13.037,0Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 616.144, 1091.245)" fill="#7971f5"/>
+  </g>
+</svg>

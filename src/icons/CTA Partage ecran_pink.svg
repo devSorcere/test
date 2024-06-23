@@ -1,0 +1,7 @@
+<svg id="CTA_Partage_ecran" data-name="CTA Partage ecran" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect id="Rectangle_15217" data-name="Rectangle 15217" width="48" height="48" rx="24" fill="rgba(255,255,255,0.1)"/>
+  <g id="partage-ecran-icone" transform="translate(13.998 14)">
+    <rect id="Rectangle_17080" data-name="Rectangle 17080" width="19.996" height="20" transform="translate(0.003)" fill="none"/>
+    <path id="Subtraction_13" data-name="Subtraction 13" d="M16,16H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0H16a4,4,0,0,1,4,4v8A4,4,0,0,1,16,16ZM10,8.977h0l2.427,2.374.005.005a.723.723,0,0,0,.99,0l0-.005a.681.681,0,0,0,0-.978L11,8l2.428-2.375a.678.678,0,0,0,0-.977.718.718,0,0,0-1,0L10,7.021,7.573,4.647a.722.722,0,0,0-1,0,.683.683,0,0,0,0,.977L9,8,6.57,10.374a.684.684,0,0,0,0,.978l.008.005a.719.719,0,0,0,.987,0L10,8.978Z" transform="translate(0 2.001)" fill="#7971f5"/>
+  </g>
+</svg>

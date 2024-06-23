@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-degular relative z-1 text-base font-normal bg-black text-white;
+  }
+  .a-container {
+    @apply px-5 w-full;
+
+    @screen md {
+      @apply mx-auto p-0 w-[88%];
+      max-width: 1696px;
+    }
+  }
+}
+
+// Vendors=
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+
+// Materials
+@import "materials/buttons";
+@import "materials/img-wiht-mask";
+@import "materials/article";
+@import "materials/formatter";
+@import "materials/icons";
+@import "materials/links";
+@import "materials/form-elements";
+
+// Components
+@import 'components/header';
+@import 'components/navigation';
+@import 'components/breadcrumb';
+@import 'components/slides';
+@import 'components/footer';
+@import 'components/auth';
+@import 'components/custom/rules';
+// @import 'components/custom/global';
+
+//Custom Style
+@import "components/custom/index.scss";
+
+
+// Pages
+@import 'pages/home-page';

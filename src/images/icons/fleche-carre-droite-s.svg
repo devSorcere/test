@@ -1,0 +1,7 @@
+<svg id="fleche-carre-droite-s" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_14441" data-name="Rectangle 14441" transform="translate(24 24) rotate(-180)" fill="none" stroke="#fff" stroke-width="0.5">
+    <rect width="24" height="24" rx="8" stroke="none"/>
+    <rect x="0.25" y="0.25" width="23.5" height="23.5" rx="7.75" fill="none"/>
+  </g>
+  <path id="fleche-gauche-16x16" d="M5,0,.143,4.667a.453.453,0,0,0,.186.765A.446.446,0,0,0,.771,5.32L4.546,1.7V9.539a.454.454,0,1,0,.909,0V1.7L9.229,5.32a.446.446,0,0,0,.442.112.453.453,0,0,0,.186-.765Z" transform="translate(17 7) rotate(90)" fill="#fff"/>
+</svg>

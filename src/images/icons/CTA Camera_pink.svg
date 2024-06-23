@@ -1,0 +1,12 @@
+<svg id="CTA_Camera" data-name="CTA Camera" xmlns="http://www.w3.org/2000/svg" width="80" height="48" viewBox="0 0 80 48">
+  <rect id="Rectangle_15217" data-name="Rectangle 15217" width="80" height="48" rx="24" fill="rgba(255,255,255,0.1)"/>
+  <path id="Path_29147" data-name="Path 29147" d="M1042.966,991.83v12" transform="translate(-998.966 -973.83)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" opacity="0.4"/>
+  <g id="fleche-micro-icone" transform="translate(52 14)">
+    <rect id="Rectangle_17078" data-name="Rectangle 17078" width="20" height="20" fill="none"/>
+    <path id="Union_175" data-name="Union 175" d="M19440.395,22252.738l-5.133-5.238a.879.879,0,0,1-.2-.953.851.851,0,0,1,1.406-.285l4.531,4.625,4.529-4.623a.837.837,0,0,1,.594-.264h.02a.851.851,0,0,1,.791.537.893.893,0,0,1-.191.963l-5.141,5.238a.827.827,0,0,1-1.207,0Z" transform="translate(-19431 -22239.5)" fill="#fff"/>
+  </g>
+  <g id="camera-icone" transform="translate(11.95 14)">
+    <rect id="Rectangle_17077" data-name="Rectangle 17077" width="20" height="20" transform="translate(0.05)" fill="none"/>
+    <path id="Union_176" data-name="Union 176" d="M.218,19.26a.753.753,0,0,1,0-1.06l.159-.16,1.86-1.86L13.967,4.45,18.038.38,18.2.22a.75.75,0,0,1,1.06,0,.755.755,0,0,1,0,1.06l-5.14,5.14v6.11a3.927,3.927,0,0,1-3.76,4.07c-.12,0-.239,0-.36-.01H4.207a2.453,2.453,0,0,1-.27.01L1.279,19.26a.756.756,0,0,1-1.061,0ZM.1,12.89a2.186,2.186,0,0,1,0-.36V5.649a3.91,3.91,0,0,1,3.75-4.06H10a3.876,3.876,0,0,1,2.94,1.121L.768,14.88A3.878,3.878,0,0,1,.1,12.89Zm17.951,1.32-1.481-.741a1.629,1.629,0,0,1-.879-1.46V6.179a1.618,1.618,0,0,1,.879-1.46l1.49-.75a1.371,1.371,0,0,1,1.37.07,1.424,1.424,0,0,1,.67,1.22v7.67a1.426,1.426,0,0,1-.67,1.22,1.394,1.394,0,0,1-.74.22A1.444,1.444,0,0,1,18.049,14.21Z" transform="translate(0 0.522)" fill="#7971f5" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

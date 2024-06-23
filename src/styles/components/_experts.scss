@@ -1,0 +1,16 @@
+.experts {
+  @apply w-full;
+
+  .swiper-slide {
+    width: 288px;
+    transition: 0.25s;
+
+    @screen lg {
+      width: 1130px;
+    }
+
+    &:not(.swiper-slide-active) {
+      margin-top: 40px;
+    }
+  }
+}

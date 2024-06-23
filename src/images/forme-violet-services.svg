@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="544" height="727" viewBox="0 0 544 727">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17187" data-name="Rectangle 17187" width="544" height="727" rx="40" transform="translate(112 5615)" fill="#fff" opacity="0.5"/>
+    </clipPath>
+  </defs>
+  <g id="forme-violet-services" transform="translate(-112 -5615)" clip-path="url(#clip-path)">
+    <path id="Path_29180" data-name="Path 29180" d="M28.5,102.841H195.766a28.5,28.5,0,0,0,28.5-28.513V48.512A28.5,28.5,0,0,1,252.758,20H358.8a28.5,28.5,0,0,1,28.5,28.513V74.328a28.5,28.5,0,0,0,28.5,28.513H435.5A28.5,28.5,0,0,1,464,131.354V565.486A28.5,28.5,0,0,1,435.5,594H350.728a28.5,28.5,0,0,1-28.5-28.513V542.721a28.5,28.5,0,0,0-28.5-28.513H154.821a28.5,28.5,0,0,1-28.5-28.513,28.5,28.5,0,0,0-28.5-28.513H28.5A28.5,28.5,0,0,1,0,428.67V131.354a28.5,28.5,0,0,1,28.5-28.513" transform="translate(152 5697.996)" fill="#7971f5"/>
+  </g>
+</svg>

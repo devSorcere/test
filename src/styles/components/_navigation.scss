@@ -1,0 +1,18 @@
+.navigation {
+  @apply hidden md:flex justify-start;
+
+  &--item {
+    @apply inline-flex items-center text-[20px] leading-5 mr-[77px] last-of-type:mr-0 hover:text-corn-flower transition-all;
+
+    &.is-parent {
+      &:hover {
+        .icon {
+          @apply text-corn-flower;
+        }
+      }
+      .icon {
+        @apply inline-block text-xs ml-3;
+      }
+    }
+  }
+}

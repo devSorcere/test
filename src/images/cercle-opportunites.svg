@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="cercle-opportunites" transform="translate(-330 -1937)">
+    <circle id="Ellipse_680" data-name="Ellipse 680" cx="40" cy="40" r="40" transform="translate(330 1937)" fill="#7971f5" opacity="0.2"/>
+    <path id="target" d="M58.089,34.2a18,18,0,1,1-4.53-5.906l3.92-3.921a1.384,1.384,0,1,1,1.957,1.957l-16.6,16.6A1.384,1.384,0,1,1,40.88,40.97l4.793-4.793a6.916,6.916,0,1,0,3.09,5.375,1.385,1.385,0,0,1,2.766-.156,9.682,9.682,0,1,1-3.869-7.2l3.933-3.933a15.194,15.194,0,1,0,4,5.13,1.384,1.384,0,1,1,2.5-1.193Z" transform="translate(328.148 1935.035)" fill="#020f11"/>
+  </g>
+</svg>

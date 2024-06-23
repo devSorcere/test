@@ -1,0 +1,13 @@
+<svg id="carre-plus-icone" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="Group_27526" data-name="Group 27526">
+    <g id="Rectangle_12144" data-name="Rectangle 12144" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1">
+      <rect width="41" height="41" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="40" height="40" rx="9.5" fill="none"/>
+    </g>
+    <g id="Group_22810" data-name="Group 22810" transform="translate(10.497 10.5)">
+      <path id="Path_21886" data-name="Path 21886" d="M2725,1583.236a.515.515,0,0,1-.5-.528v-17.944a.5.5,0,1,1,1,0v17.944A.515.515,0,0,1,2725,1583.236Z" transform="translate(-2714.997 -1563.736)" fill="#fff"/>
+      <path id="Union_182" data-name="Union 182" d="M9,18.971V11H1.031a1,1,0,1,1,0-2H9V1.025a1,1,0,1,1,2,0V9h7.973a1,1,0,1,1,0,2H11v7.973a1,1,0,1,1-2,0Z" fill="#fff"/>
+      <path id="Path_21887" data-name="Path 21887" d="M.5,19a.514.514,0,0,1-.5-.528V.528A.514.514,0,0,1,.5,0,.514.514,0,0,1,1,.528V18.472A.514.514,0,0,1,.5,19Z" transform="translate(19.503 9.5) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="cercle-formes-rectangle" transform="translate(-247 -3560.106)">
+    <g id="Ellipse_703" data-name="Ellipse 703" transform="translate(247 3560.106)" fill="#fff" stroke="#020f11" stroke-width="1" opacity="0.1">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.5" fill="none"/>
+    </g>
+    <path id="align-center-vertical" d="M54.769,45.75H52.308v-7.5a2.481,2.481,0,0,0-2.462-2.5H43.692a2.481,2.481,0,0,0-2.462,2.5v7.5H38.769V34.5A2.481,2.481,0,0,0,36.308,32H30.154a2.481,2.481,0,0,0-2.462,2.5V45.75H25.231a1.25,1.25,0,0,0,0,2.5h2.462V59.5A2.481,2.481,0,0,0,30.154,62h6.154a2.481,2.481,0,0,0,2.462-2.5V48.25h2.462v7.5a2.481,2.481,0,0,0,2.462,2.5h6.154a2.481,2.481,0,0,0,2.462-2.5v-7.5h2.462a1.25,1.25,0,0,0,0-2.5ZM36.308,59.5H30.154v-25h6.154Zm13.538-3.75H43.692V38.25h6.154Z" transform="translate(247 3553.106)" fill="#fff"/>
+  </g>
+</svg>

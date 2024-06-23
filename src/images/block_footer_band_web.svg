@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1924.195" height="164.017" viewBox="0 0 1924.195 164.017">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.638" x2="1" y2="0.647" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#110f15"/>
+      <stop offset="0.512" stop-color="#fd7e44"/>
+      <stop offset="1" stop-color="#100e14"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_30477" data-name="Group 30477" transform="matrix(0.999, -0.035, 0.035, 0.999, 177.83, -3059.034)">
+    <rect id="Rectangle_17019" data-name="Rectangle 17019" width="1921.98" height="97" transform="translate(-286.821 3118)" fill="url(#linear-gradient)"/>
+    <g id="Group_30411" data-name="Group 30411" transform="translate(-286 3143)">
+      <text id="Site_web_personnalisée" data-name="Site web personnalisée" transform="translate(405.139 30)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">SITE WEB PERSONNALISÉE</tspan></text>
+      <text id="Site_web_professionnel_" data-name="Site web professionnel " transform="translate(0 30)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">SITE WEB PROFESSIONNEL </tspan></text>
+      <text id="Site_web_responsive" data-name="Site web responsive" transform="translate(808.42 30)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">SITE WEB RESPONSIVE</tspan></text>
+      <text id="Site_web_personnalisée-2" data-name="Site web personnalisée" transform="translate(1162.372 30)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">SITE WEB PERSONNALISÉE</tspan></text>
+      <text id="Site_web_professionnel_2" data-name="Site web professionnel " transform="translate(1518.699 30)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">SITE WEB PROFESSIONNEL </tspan></text>
+    </g>
+  </g>
+</svg>

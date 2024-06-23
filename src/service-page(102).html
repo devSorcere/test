@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tableau de bord</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+    <link rel="icon" href="favicon.ico">
+    
+</head>
+
+<body>
+    <main id="dashboard">
+        <div class="dashboard-layout">
+            <div class="left-side">
+                <section class="left-nav-primary">
+                    <div class="nav-wrapper relative">
+                        <div class="fl_col gp20 ai_c">
+                            <img class="logo-dashboard" src="images/Aideprojet-logo-academy2.svg" alt="">
+                            <img class="banner-header" src="images/compte-client-img.svg" alt="">
+                        </div>
+                        <div class="menus-list pd24 fl_col">
+                            <div class="menus fl_col">
+                                <div class="menu-nav fl_col gp8 degular txt_grey pt-4">
+                                    <p class="p16 w-100">Cours</p>
+                                    <ul class="fl_col gp16 txt_grey">
+                                        <a href="./tableau-de-bord.html">
+                                            <li class="degular">
+                                                <img src="icons/menu-icone.svg" alt="">
+                                                Tableau de bord
+                                            </li>
+                                        </a>
+                                        <a href="./cours-en-direct.html">
+                                            <li>
+                                                <img src="icons/camera-icone.svg" alt="">
+                                                Cours en direct
+                                            </li>
+                                        </a>
+                                        <a href="./cours.html">
+                                            <li>
+                                                <img src="icons/cours-video.svg" alt="">
+                                                Cours
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li>
+                                                <img src="icons/favoris-menu.svg" alt="">
+                                                Favoris
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li class=" active-item">
+                                                <img src="icons/favoris-menu-yellow.svg" alt="">
+                                                Services
+                                            </li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                                <div class="myaccount-options fl_col gp8 txt_grey pb-36">
+                                    <p class="p16">Mon compte</p>
+                                    <ul class="fl_col gp16 txt_grey">
+                                        <li>
+                                            <img src="icons/securité-utilisateur-icone.svg" alt="">
+                                            Mon compte
+                                        </li>
+                                        <li>
+                                            <img src="icons/preferences.svg" alt="">
+                                            Mes préférences
+                                        </li>
+                                        <a href="">
+                                            <li class="">
+                                                <img src="icons/facture-icone.svg" alt="">
+                                                Paiements
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card-footer txt_center fl_col txt_grey ">
+
+                                <div class="faqs fl_col ai_c gp6">
+                                    <img src="icons/help-circle-svgrepo-com.svg" alt="">
+                                    <p class="p14">
+                                        Vous avez une question ou <br> besoin de réponses ?
+                                    </p>
+                                    <p class="p14 faq">
+                                        Aide et FAQ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="right-side fl_col gp20">
+                <section class="header-dashboard">
+                    <div class="header-dashboard-wrapper fl_row jc_s pd28 ai_c">
+                        <div class="">
+                            <p class="title p40 gelica w-200">Services</p>
+                        </div>
+                        <div class="user-nav fl_row gp16">
+                            <div class="fl_row gp16 actions">
+                                <div class="actions-box"> <img src="icons/loupe-icone.svg" alt=""></div>
+                                <div class="notifications-box ">
+                                    <div class="actions-box notication-icon" onclick="toggleNotifications()">
+                                        <img src="icons/Notification.svg" alt="">
+                                    </div>
+                                    <div class="notifications-container hide">
+                                        <div class="overlay" onclick="toggleNotifications()"></div>
+                                        <div class="noti-wrapper fl_col jc_s gp24">
+                                            <div class="fl_col gp20">
+                                                <div class="noti-header">
+                                                    <p class="p32 gelica">Notifications</p>
+                                                </div>
+                                                <div class="noti-body fl_col gp24 degular ">
+                                                    <div class="noti-body-head fl_row jc_s ai_c">
+                                                        <div class="tab fl_row ai_c">
+                                                            <p class="p16 active-tab">Tout</p>
+                                                            <p class="p16">Non lu</p>
+                                                        </div>
+                                                        <p class="p16 txt_primary w-500">Tout marquer comme lu</p>
+                                                    </div>
+                                                    <div class="listing-notifications fl_col gp16">
+                                                        <div class="card-notification paiment-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="icons/download-icon-arrow-pink.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                                            <p class="noti-description p16">Un paiement
+                                                                                concernant la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side fl_col ai_s">
+                                                                    <p class="p24 w-500">6 000 €</p>
+                                                                </div>
+                                                                <span class="pending-alert"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification formation-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="images/homme-femme-site-web.png"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Formation
+                                                                            </p>
+                                                                            <p class="noti-description p16">Votre cours
+                                                                                démarre d’ici 5min,
+                                                                                préparez vous et rejoignez le live.
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification formation-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="images/homme-femme-site-web.png"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Formation
+                                                                            </p>
+                                                                            <p class="noti-description p16">David a
+                                                                                écrit un commentaire
+                                                                                dans la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side">
+                                                                    <button>Répondre</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification paiment-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="icons/download-icon-arrow-pink.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                                            <p class="noti-description p16">Un paiement
+                                                                                concernant la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side fl_col ai_s">
+                                                                    <p class="p24 w-500">6 000 €</p>
+                                                                </div>
+                                                                <span class="pending-alert"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="noti-footer">
+                                                <p class="p18 w-600">Afficher toutes les notifications</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-menu fl_row ai_c gp11 pd9">
+                                <img class="user-avatar" src="images/formateur-profile.png" alt="">
+                                <img class="dropdown-menu" src="icons/dropdown_arrow - white.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    function toggleNotifications() {
+                        var notificationsContainer = document.querySelector('.notifications-container');
+                        notificationsContainer.classList.toggle('hide');
+                    }
+                </script>
+                <section class="cours-actifs">
+                    <div class="wrapper fl_col gp24">
+                        <div class="flex rounded-xl live-state-container items-center ml-28 mr-32 ">
+                            <div>
+                                <p class="text-xl active-tab Degular ">Services actifs </p>
+                            </div>
+                            <div class="">
+                                <p class="text-xl opacity-50 pl-8 pr-8 Degular">Services terminés</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class=" flex flex-row gap-4 services-margin">
+                                <div class="service-card">
+                                    <div class="flex flex-row justify-between ml-6 mt-6 mr-6">
+                                        <p class="Gelica-light text-2xl">App mobile V1</p>
+                                        <img src="icons/favoris-menu-yellow.svg">
+                                    </div>
+                                    <div class="ml-6 mr-6 service-card-img mb-2">
+                                        <img class="" src="images/App mobile V1_img.png">
+                                    </div>
+                                    <div class="flex flex-row ml-6 items-center justify-between mr-6">
+                                        <p class="degular-bold text-2xl flex items-center gap-2">950€<span class="Degular-light text-xs opacity-60">/ Par mois </span> </p> 
+                                        <div class="fl_row gp6 ai_c icon-card">
+                                            <img src="icons/users-card.svg" alt="">
+                                            <p class="p14 Degular-regular">1/12 mois</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="service-card">
+                                    <div class="flex flex-row justify-between ml-6 mt-6 mr-6">
+                                        <p class="Gelica-light text-2xl">Identité visuelle</p>
+                                        <img src="icons/favoris-menu.svg">
+                                    </div>
+                                    <div class="ml-6 mr-6 service-card-img mb-2">
+                                        <img class="" src="images/service-formalites-identite-visuelle.png">
+                                    </div>
+                                    <div class="flex flex-row ml-6 items-center justify-between mr-6">
+                                        <p class="degular-bold text-2xl flex items-center gap-2">950€<span class="Degular-light text-xs opacity-60">/ Par mois </span> </p> 
+                                        <div class="fl_row gp6 ai_c icon-card">
+                                            <img src="icons/users-card.svg" alt="">
+                                            <p class="p14 Degular-regular">1/12 mois</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="service-card">
+                                    <div class="flex flex-row justify-between ml-6 mt-6 mr-6">
+                                        <p class="Gelica-light text-2xl">Réseaux sociaux</p>
+                                        <img src="icons/favoris-menu.svg">
+                                    </div>
+                                    <div class="ml-6 mr-6 service-card-img mb-2">
+                                        <img class="" src="images/service-reseaux-sociaux-dark-mode.png">
+                                    </div>
+                                    <div class="flex flex-row ml-6 items-center justify-between mr-6">
+                                        <p class="degular-bold text-2xl flex items-center gap-2">950€<span class="Degular-light text-xs opacity-60">/ Par mois </span> </p> 
+                                        <div class="fl_row gp6 ai_c icon-card">
+                                            <img src="icons/users-card.svg" alt="">
+                                            <p class="p14 Degular-regular">1/12 mois</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+</body>

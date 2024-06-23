@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="edit-container relative">
+        <div class="flex justify-between items-center  p-10">
+            <p class="p32 Gelica-light">Votre plus belle photo</p>
+            <a href="#"
+                        class="h-[32px] w-[32px] rounded-full flex items-center justify-center border border-white duration-200 hover:text-black hover:bg-white  hover:border-white">
+                        <i class="icon icon-close text-[12px]"></i>
+                    </a>
+        </div>
+        <div class="devider"></div>
+        
+
+        <div class="flex flex-col">
+            <div class="devider absolute w-full bottom-120"></div>
+            <div class="flex justify-between items-center">
+                <p class="text-lg Degular-medium  absolute bottom-8 left-8 cancel-btn">Annuler</p>
+                <p class="text-lg Degular-medium save-btn  absolute bottom-8 right-8">Enregistrer</p>
+            </div>
+        </div>
+
+
+    </div>
+    <main id="dashboard" class="opacity-85">
+        <div class="dashboard-layout">
+            <div class="left-side">
+                <section class="left-nav-primary">
+                    <div class="nav-wrapper relative">
+                        <div class="fl_col gp20 ai_c">
+                            <img class="logo-dashboard" src="images/Aideprojet-logo-academy.svg" alt="">
+                            <img class="banner-header" src="images/compte-formateur-img.svg" alt="">
+                        </div>
+                        <div class="menus-list pd24 fl_col">
+                            <div class="menus fl_col">
+                                <div class="menu-nav fl_col gp8 degular txt_grey">
+                                    <p class="p16 w-100">Cours</p>
+                                    <ul class="fl_col gp16 txt_grey">
+                                        <a href="./tableau-de-bord.html">
+                                            <li>
+                                                <img src="icons/menu-icone.svg" alt="">
+                                                Tableau de bord
+                                            </li>
+                                        </a>
+                                        <a href="./cours-en-direct.html">
+                                            <li>
+                                                <img src="icons/camera-icone.svg" alt="">
+                                                Cours en direct
+                                            </li>
+                                        </a>
+                                        <a href="./cours.html">
+                                            <li>
+                                                <img src="icons/cours-video.svg" alt="">
+                                                Cours
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li>
+                                                <img src="icons/Calendar.svg" alt="">
+                                                Mon planning
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li>
+                                                <img src="icons/facture-icone.svg" alt="">
+                                                Paiements
+                                            </li>
+                                        </a>
+                                        <li class="active-item degular">
+                                            <img src="icons/securité-utilisateur-icone.svg" alt="">
+                                            Mon profile
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="myaccount-options fl_col gp8 txt_grey">
+                                    <p class="p16">Mon compte</p>
+                                    <ul class="fl_col gp16 txt_grey pb-16">
+                                        <li>
+                                            <img src="icons/securité-utilisateur-icone.svg" alt="">
+                                            Mon compte
+                                        </li>
+                                        <li>
+                                            <img src="icons/preferences.svg" alt="">
+                                            Mes préférences
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card-footer txt_center fl_col txt_grey">
+
+                                <div class="faqs fl_col ai_c gp6">
+                                    <img src="icons/help-circle-svgrepo-com.svg" alt="">
+                                    <p class="p14">
+                                        Vous avez une question ou <br> besoin de réponses ?
+                                    </p>
+                                    <p class="p14 faq">
+                                        Aide et FAQ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="right-side fl_col gp20 items-center">
+                <section class="header-dashboard w-full">
+                    <div class="header-dashboard-wrapper fl_row px-8 jc_s ai_c">
+                        <div class="">
+                            <p class="title p40 gelica w-200">Mon profile</p>
+                        </div>
+                        <div class="user-nav fl_row gp16">
+                            <div class="fl_row gp16 actions">
+                                <div class="actions-box"> <img src="icons/loupe-icone.svg" alt=""></div>
+                                <div class="notifications-box ">
+                                    <div class="actions-box notication-icon" onclick="toggleNotifications()">
+                                        <img src="icons/Notification.svg" alt="">
+                                    </div>
+                                    <div class="notifications-container hide">
+                                        <div class="overlay" onclick="toggleNotifications()"></div>
+                                        <div class="noti-wrapper fl_col jc_s gp24">
+                                            <div class="fl_col gp20">
+                                                <div class="noti-header">
+                                                    <p class="p32 gelica">Notifications</p>
+                                                </div>
+                                                <div class="noti-body fl_col gp24 degular ">
+                                                    <div class="noti-body-head fl_row jc_s ai_c">
+                                                        <div class="tab fl_row ai_c">
+                                                            <p class="p16 active-tab">Tout</p>
+                                                            <p class="p16">Non lu</p>
+                                                        </div>
+                                                        <p class="p16 txt_primary w-500">Tout marquer comme lu</p>
+                                                    </div>
+                                                    <div class="listing-notifications fl_col gp16">
+                                                        <div class="card-notification paiment-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="icons/download-icon-arrow-pink.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                                            <p class="noti-description p16">Un paiement
+                                                                                concernant la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side fl_col ai_s">
+                                                                    <p class="p24 w-500">6 000 €</p>
+                                                                </div>
+                                                                <span class="pending-alert"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification formation-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="images/homme-femme-site-web.png"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Formation
+                                                                            </p>
+                                                                            <p class="noti-description p16">Votre cours
+                                                                                démarre d’ici 5min,
+                                                                                préparez vous et rejoignez le live.
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification formation-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="images/homme-femme-site-web.png"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Formation
+                                                                            </p>
+                                                                            <p class="noti-description p16">David a
+                                                                                écrit un commentaire
+                                                                                dans la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side">
+                                                                    <button>Répondre</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification paiment-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="icons/download-icon-arrow-pink.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                                            <p class="noti-description p16">Un paiement
+                                                                                concernant la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side fl_col ai_s">
+                                                                    <p class="p24 w-500">6 000 €</p>
+                                                                </div>
+                                                                <span class="pending-alert"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="noti-footer">
+                                                <p class="p18 w-600">Afficher toutes les notifications</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-menu fl_row ai_c gp11 pd9">
+                                <img class="user-avatar" src="images/formateur-profile.png" alt="">
+                                <img class="dropdown-menu" src="icons/dropdown_arrow - white.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="w-870-scroll flex justify-center">
+                    <div class="2xl:w-[544px] 2xl:mr-8">
+                        <div class="rounded-[40px] mb-8 relative">
+                            <img class="w-full" src="images/formateur-profile.png" alt="formateur profile">
+                            <img class="absolute bottom-6 right-6" src="icons/cercle-camera-icone.svg" alt="">
+                        </div>
+                        <div class="competences-container mb-8">
+                            <div class="p-10 border-b border-[#FFFFFF4D]">
+                                <div class="flex flex-row justify-between competences-icons">
+                                    <h5 class="font-gelica text-[32px] leading-10 mb-7">Compétences</h5>
+                                    <div class="flex gap-5">
+                                        <img src="icons/plus-ajouter-carre-icone.svg" alt="">
+                                        <img src="icons/carre-crayon-modifier-icone.svg" alt="">
+                                    </div>
+
+                                </div>
+
+                                <ul class="flex flex-wrap justify-start ">
+                                    <li class="inline-block text-2xl mr-4 mb-2">✓ User experience</li>
+                                    <li class="inline-block text-2xl mr-4 mb-2">✓ Gestion de projet</li>
+                                    <li class="inline-block text-2xl mr-4 mb-2">✓ Wireframe</li>
+                                    <li class="inline-block text-2xl mr-4 mb-2">✓ Design Thinking</li>
+                                    <li class="inline-block text-2xl mr-4 mb-2">✓ UX Write</li>
+                                    <li class="inline-block text-2xl mr-4 mb-2">✓ Illustration</li>
+                                </ul>
+                            </div>
+                            <div class="p-10 border-b border-[#FFFFFF4D]">
+                                <h5 class="font-gelica text-[32px] leading-10 mb-7">Niveau d’expérince</h5>
+                                <p class="flex align-baseline text-2xl"><i
+                                        class="icon icon-star text-xl mr-2.5"></i>8-15
+                                    ans</p>
+                            </div>
+                            <div class="p-10">
+                                <h5 class="font-gelica text-[32px] leading-10 mb-7">Langues</h5>
+                                <div class="flex items-baseline text-2xl">
+                                    <i class="icon icon-langues text-xl mr-2.5"></i>
+                                    <ul class="flex justify-start flex-wrap">
+                                        <li class="inline-block mr-4 mb-2">Français</li>
+                                        <li class="inline-block mr-4 mb-2">Anglais</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="competences-container mb-8">
+                            <div class="p-10">
+                                <div class="flex justify-between localisation-icon">
+                                    <h5 class="font-gelica text-[32px] leading-10 mb-7">Localisation</h5>
+                                    <img src="icons/carre-crayon-modifier-icone.svg" alt="">
+                                </div>
+                                <p class="flex items-baseline text-2xl">
+                                    <i class="icon icon-localisation text-xl mr-2.5"></i>
+                                    Bordeaux
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="2xl:w-[832px]">
+                        <div class="competences-container mb-8">
+                            <div class="p-10">
+                                <div class="flex gap-4 justify-end bio-icons">
+                                    <img class="" src="icons/carre-partage-icone.svg" alt="">
+                                    <img src="icons/carre-crayon-modifier-icone.svg" alt="">
+                                </div>
+                                <h5 class="font-gelica text-[48px] leading-[64px] mb-4">
+                                    Marine Robert
+                                </h5>
+                                <p class="text-2xl opacity-50 mb-10">
+                                    Analyste en cybersécurité
+                                </p>
+                                <p class="text-2xl mb-6">
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor
+                                    invidunt
+                                    ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                                    et
+                                    justo duo
+                                    dolores et ea rebu… <span class="underline">Lire plus</span>
+                                </p>
+                                <ul class="mb-8">
+                                    <li class="text-2xl mb-3 flex items-baseline">
+                                        <i class="icon icon-link text-[#5E55F2] text-[20px] mr-3"></i>
+                                        <a class="underline" href="#">www.marianerobert.com</a>
+                                    </li>
+                                    <li class="text-2xl mb-3 flex items-baseline">
+                                        <i class="icon icon-github text-[#6F47BF] text-[20px] mr-3"></i>
+                                        <a class="underline" href="#">www.github.com/marianerobert</a>
+                                    </li>
+                                    <li class="text-2xl mb-3 flex items-baseline">
+                                        <i
+                                            class="icon icon-instagram-2 text-[20px] mr-3 from-[#614DE2] via-[#DF4168] to-[#DEA452] bg-gradient-to-br bg-clip-text text-transparent"></i>
+                                        <a class="underline" href="#">www.instagram.comn/marianerobert</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="competences-container mb-8">
+                            <div class="p-10">
+                                <h5 class="font-gelica text-[32px] leading-[40px] mb-4.5">
+                                    Formations
+                                </h5>
+                                <div
+                                    class="rounded-[32px] w-752 h-154 mb-4 formation-container flex items-center justify-between p-6">
+
+                                    <div class="flex">
+                                        <div class=" mr-8">
+                                            <img class="w-full rounded-[18px]" src="images/20166.png"
+                                                alt="8-formateur_result">
+                                        </div>
+                                        <div class="w-[calc(100%-145px)] flex">
+                                            <div>
+                                                <h6 class="Gelica-regular text-2xl mb-3">Analyste en
+                                                    cybersécurité
+                                                </h6>
+                                                <p class="text-2xl degular-bold">2 Jan</p>
+                                                <p class="text-sm Degular-regular">24 jours · 48h</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm Degular-medium live-details-btn">Détails du live</p>
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="rounded-[32px] w-752 h-154 mb-4 formation-container flex items-center justify-between p-6">
+
+                                    <div class="flex">
+                                        <div class=" mr-8">
+                                            <img class="w-full rounded-[18px]" src="images/20166.png"
+                                                alt="8-formateur_result">
+                                        </div>
+                                        <div class="w-[calc(100%-145px)] flex">
+                                            <div>
+                                                <h6 class="Gelica-regular text-2xl mb-3">Analyste en
+                                                    cybersécurité
+                                                </h6>
+                                                <p class="text-2xl degular-bold">2 Jan</p>
+                                                <p class="text-sm Degular-regular">24 jours · 48h</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm Degular-medium live-details-btn">Détails du live</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="competences-container mb-8">
+                            <div class="p-10">
+                                <div class="flex justify-between experience-icon">
+                                    <h5 class="font-gelica text-[32px] leading-[40px] mb-4.5">
+                                        Experiences
+                                    </h5>
+                                    <img src="icons/plus-ajouter-carre-icone.svg" alt="">
+                                </div>
+                                <div class="rounded-[32px] border border-[#FFFFFF66] p-10 mb-4">
+                                    <div class="flex justify-between">
+                                        <div class="flex justify-start items-start">
+                                            <i class="icon icon-calendrier text-2xl inline-block mr-3"></i>
+                                            <p class="text-2xl leading-[29px]">
+                                                <span class="w-full inline-block">Fév 2022</span>
+                                                <span class="w-full inline-block">Maintenant</span>
+                                            </p>
+                                        </div>
+                                        <div class="w-[470px]">
+                                            <h6 class="Gelica-light text-[32px] leading-[43px] max-w-[380px] mb-2">
+                                                Analyste
+                                                SOC</h6>
+                                            <p class="text-2xl mb-4 opacity-50">Sopra Steria - Paris, France</p>
+                                            <p class="text-2xl Degular-regular">S
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod
+                                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                                voluptua.
+                                            </p>
+                                        </div>
+                                        <div class="flex flex-row gap-5 experience-icon">
+                                            <img src="icons/carre-crayon-modifier-icone.svg" alt="">
+                                            <img src="icons/supprimer-poubelle.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-[32px] border border-[#FFFFFF66] p-10 mb-4">
+                                    <div class="flex justify-between">
+                                        <div class="flex justify-start items-start">
+                                            <i class="icon icon-calendrier text-2xl inline-block mr-3"></i>
+                                            <p class="text-2xl leading-[29px]">
+                                                <span class="w-full inline-block">Jan 2022</span>
+                                                <span class="w-full inline-block">Oct 2018</span>
+                                            </p>
+                                        </div>
+                                        <div class="w-[470px]">
+                                            <h6 class="Gelica-light text-[32px] leading-[43px] max-w-[380px] mb-2">
+                                                Analyste
+                                                en
+                                                cybersécurité</h6>
+                                            <p class="text-2xl mb-4 opacity-50">GROUPE TREFLE - Athis-Mons, France</p>
+                                            <p class="text-2xl">S
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod
+                                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                                voluptua.
+                                            </p>
+                                        </div>
+                                        <div class="flex flex-row gap-5 experience-icon">
+                                            <img src="icons/carre-crayon-modifier-icone.svg" alt="">
+                                            <img src="icons/supprimer-poubelle.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rounded-[32px] border border-[#FFFFFF66] p-10 ">
+                                    <div class="flex justify-between">
+                                        <div class="flex justify-start items-start">
+                                            <i class="icon icon-calendrier text-2xl inline-block mr-3"></i>
+                                            <p class="text-2xl leading-[29px]">
+                                                <span class="w-full inline-block">Fév 2022</span>
+                                                <span class="w-full inline-block">Maintenant</span>
+                                            </p>
+                                        </div>
+                                        <div class="w-[470px]">
+                                            <h6 class="Gelica-light text-[32px] leading-[43px] max-w-[380px] mb-2">
+                                                Professeur de
+                                                Sécurité Informatique & Sécurité Web</h6>
+                                            <p class="text-2xl mb-4 opacity-50">EDUCATION & E-LEARNING - Bordeaux</p>
+                                            <p class="text-2xl">S
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod
+                                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                                voluptua.
+                                            </p>
+                                        </div>
+                                        <div class="flex flex-row gap-5 experience-icon">
+                                            <img src="icons/carre-crayon-modifier-icone.svg" alt="">
+                                            <img src="icons/supprimer-poubelle.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    function toggleNotifications() {
+                        var notificationsContainer = document.querySelector('.notifications-container');
+                        notificationsContainer.classList.toggle('hide');
+                    }
+
+                </script>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

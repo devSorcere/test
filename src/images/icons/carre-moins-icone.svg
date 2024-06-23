@@ -1,0 +1,10 @@
+<svg id="carre-moins-icone" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="Rectangle_12144" data-name="Rectangle 12144" fill="none" stroke="#fff" stroke-width="1">
+    <rect width="41" height="41" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="40" height="40" rx="9.5" fill="none"/>
+  </g>
+  <g id="Group_22810" data-name="Group 22810" transform="translate(11.5 11.5)">
+    <path id="Union_182" data-name="Union 182" d="M12385.5,23590.5a1.016,1.016,0,0,1,1.027-1h17.945a1,1,0,1,1,0,2h-17.945A1.016,1.016,0,0,1,12385.5,23590.5Z" transform="translate(-12386.5 -23581.5)" fill="#fff"/>
+    <path id="Path_21887" data-name="Path 21887" d="M.5,19a.514.514,0,0,1-.5-.528V.528A.514.514,0,0,1,.5,0,.514.514,0,0,1,1,.528V18.472A.514.514,0,0,1,.5,19Z" transform="translate(18.5 8.5) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

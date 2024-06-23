@@ -1,0 +1,87 @@
+.a-slider {
+  $parent: &;
+
+  &__navigation {
+    @apply flex justify-between gap-4 w-fit pt-6 mx-auto;
+
+    @screen lg {
+      @apply absolute pt-0 mx-0;
+      top: -56px;
+      right: 16px;
+    }
+
+    @screen 3xl {
+      right: 48px;
+    }
+
+    .prev, .next {
+      @apply cursor-pointer;
+    }
+  }
+
+  &--default {
+    @screen lg {
+      @apply pt-12 mx-4;
+    }
+
+    .slide {
+      @apply px-2;
+
+      @screen lg {
+        @apply px-4;
+      }
+    }
+
+    &.no-mx {
+      @screen lg {
+        @apply -mx-4;
+      }
+
+      #{$parent} {
+        &__navigation {
+          @screen lg {
+            right: -16px;
+          }
+
+          @screen 3xl {
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &--simple {
+    .slide {
+      @apply px-2;
+
+      @screen lg {
+        @apply px-4;
+      }
+    }
+  }
+
+  &--double {
+    .slide {
+      width: 288px;
+      margin: 0 12px;
+
+      @screen lg {
+        width: 1130px !important;
+        margin: 0 20px;
+      }
+    }
+
+    .slick-slide {
+      transition: 0.25s;
+
+      &:not(.slick-active) {
+        margin-top: 24px;
+
+        @screen lg {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}

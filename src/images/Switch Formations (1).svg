@@ -1,0 +1,17 @@
+<svg id="Switch_Formations" data-name="Switch Formations" xmlns="http://www.w3.org/2000/svg" width="383" height="54" viewBox="0 0 383 54">
+  <g id="Rectangle_14441" data-name="Rectangle 14441" transform="translate(383 54) rotate(-180)" fill="#0f1b1d" stroke="rgba(255,255,255,0.2)" stroke-width="0.5">
+    <rect width="383" height="54" rx="16" stroke="none"/>
+    <rect x="0.25" y="0.25" width="382.5" height="53.5" rx="15.75" fill="none"/>
+  </g>
+  <g id="Group_31373" data-name="Group 31373" transform="translate(-472 -163)">
+    <g id="Rectangle_14441-2" data-name="Rectangle 14441" transform="translate(644 213) rotate(-180)" fill="none" stroke="#d9f778" stroke-width="1">
+      <rect width="166" height="46" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="165" height="45" rx="13.5" fill="none"/>
+    </g>
+    <text id="Cours_Actifs" data-name="Cours Actifs" transform="translate(561 197)" fill="#d9f777" font-size="20" font-family="Degular-Medium, Degular" font-weight="500"><tspan x="-51" y="0">Cours Actifs</tspan></text>
+  </g>
+  <g id="Group_31374" data-name="Group 31374" transform="translate(-285 -163)">
+    <rect id="Rectangle_14441-3" data-name="Rectangle 14441" width="208" height="46" rx="12" transform="translate(665 213) rotate(-180)" fill="none"/>
+    <text id="Cours_Desactivés" data-name="Cours Desactivés" transform="translate(561 197)" fill="#fff" font-size="20" font-family="Degular-Regular, Degular" opacity="0.5"><tspan x="-72" y="0">Cours Desactivés</tspan></text>
+  </g>
+</svg>

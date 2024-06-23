@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.232" y1="1" x2="0" y2="0.123" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dea452"/>
+      <stop offset="0.399" stop-color="#df4168"/>
+      <stop offset="1" stop-color="#614de2"/>
+    </linearGradient>
+  </defs>
+  <path id="logo-instagram" d="M8.556,3A5.556,5.556,0,0,0,3,8.556v8.889A5.556,5.556,0,0,0,8.556,23h8.889A5.556,5.556,0,0,0,23,17.444V8.556A5.556,5.556,0,0,0,17.444,3ZM19.667,5.222a1.111,1.111,0,1,1-1.111,1.111A1.112,1.112,0,0,1,19.667,5.222ZM13,7.444A5.556,5.556,0,1,1,7.444,13,5.556,5.556,0,0,1,13,7.444Zm0,2.222A3.333,3.333,0,1,0,16.333,13,3.333,3.333,0,0,0,13,9.667Z" transform="translate(-3 -3)" fill="url(#linear-gradient)"/>
+</svg>

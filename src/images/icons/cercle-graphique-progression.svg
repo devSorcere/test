@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="cercle-graphique-progression" transform="translate(-247 -4165.106)">
+    <g id="Ellipse_702" data-name="Ellipse 702" transform="translate(247 4165.106)" fill="#fff" stroke="#020f11" stroke-width="1" opacity="0.1">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.5" fill="none"/>
+    </g>
+    <path id="chart-line-up" d="M56,66.727A1.252,1.252,0,0,1,54.769,68H25.231A1.252,1.252,0,0,1,24,66.727V41.273a1.231,1.231,0,1,1,2.462,0V58.564l7.745-8.01a1.2,1.2,0,0,1,1.742,0L40,54.746l8.106-8.383H44.923a1.273,1.273,0,0,1,0-2.545h6.154a1.252,1.252,0,0,1,1.231,1.273v6.364a1.231,1.231,0,1,1-2.462,0V48.163l-8.975,9.283a1.2,1.2,0,0,1-1.742,0l-4.052-4.192-8.615,8.909v3.292H54.769A1.252,1.252,0,0,1,56,66.727Z" transform="translate(247 4151.106)" fill="#fff"/>
+  </g>
+</svg>

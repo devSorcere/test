@@ -1,0 +1,13 @@
+<svg id="CTA_Arreter_video_conférence" data-name="CTA Arreter video conférence" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="48" viewBox="0 0 96 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_15218" data-name="Rectangle 15218" width="32" height="12" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_15217" data-name="Rectangle 15217" width="96" height="48" rx="24" fill="#fd5944"/>
+  <g id="Group_29791" data-name="Group 29791" transform="translate(32 18)">
+    <g id="Group_29790" data-name="Group 29790" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_27872" data-name="Path 27872" d="M8.038,11.188A3.133,3.133,0,0,0,9.187,9.15c.187-.735.349-2.338,1.014-2.658a15.2,15.2,0,0,1,11.611-.149c.679.331.849,1.934,1.044,2.673a3.214,3.214,0,0,0,1.163,2.046,17.492,17.492,0,0,0,5.191.885,2.463,2.463,0,0,0,1.66-.533c1.456-1.387,1.151-4.936.98-5.682-.266-1.7-1.535-3-3.764-3.875-5.8-2.534-18.339-2.436-24.21.055A7.029,7.029,0,0,0,1.25,3.521,4.031,4.031,0,0,0,.132,5.739c-.151.578-.454,4.286,1.032,5.721A2.5,2.5,0,0,0,2.816,12a17.552,17.552,0,0,0,5.222-.809" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

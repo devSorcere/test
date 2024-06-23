@@ -1,0 +1,7 @@
+<svg id="supprimer-info" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="icons8-cancel" d="M24.059,23.071a.7.7,0,0,1,0,.988.705.705,0,0,1-.988,0L18,18.988l-5.071,5.071a.705.705,0,0,1-.988,0,.7.7,0,0,1,0-.988L17.012,18l-5.071-5.071a.7.7,0,1,1,.988-.988L18,17.012l5.071-5.071a.7.7,0,1,1,.988.988L18.988,18Z" transform="translate(-2 -2)" fill="#fff"/>
+  <g id="Rectangle_17246" data-name="Rectangle 17246" fill="none" stroke="rgba(255,255,255,0)" stroke-width="1">
+    <rect width="32" height="32" rx="16" stroke="none"/>
+    <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" fill="none"/>
+  </g>
+</svg>

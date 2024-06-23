@@ -1,0 +1,42 @@
+.btn {
+  @apply font-medium inline-block text-center leading-5 border rounded-2xl border-corn-flower px-8 py-4 transition-all;
+
+  &--primary {
+    @apply bg-corn-flower hover:bg-transparent;
+  }
+
+  &--secondary {
+    @apply bg-transparent hover:bg-corn-flower;
+  }
+
+  &--black {
+    @apply bg-black border-black hover:bg-transparent hover:text-black;
+  }
+
+  &--white {
+    @apply bg-transparent border-white hover:bg-white hover:text-black;
+  }
+
+  &--mindaro {
+    @apply bg-mindaro border-mindaro hover:bg-transparent text-black hover:text-mindaro;
+  }
+
+  &--transparent {
+    @apply bg-transparent border-transparent text-white hover:border-white;
+  }
+
+  &--with-icon {
+    @apply inline-flex items-end;
+
+    .icon {
+      @apply text-base leading-4 ml-4;
+    }
+  }
+
+  &--small {
+    @apply rounded-full;
+    padding: 9px 18px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

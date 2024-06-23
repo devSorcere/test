@@ -1,0 +1,17 @@
+.link {
+  @apply inline-flex items-end font-degular font-bold text-xl leading-5;
+
+  .icon {
+    @apply text-base leading-4 ml-4;
+  }
+
+  @screen lg {
+    font-size: 32px;
+    line-height: 43px;
+
+    .icon {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+}

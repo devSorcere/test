@@ -1,0 +1,13 @@
+<svg id="Télécharger_fichier" data-name="Télécharger fichier" xmlns="http://www.w3.org/2000/svg" width="280" height="158" viewBox="0 0 280 158">
+  <g id="Rounded_Rectangle_862" data-name="Rounded Rectangle 862" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="11">
+    <rect width="280" height="158" rx="16" stroke="none"/>
+    <rect x="0.5" y="0.5" width="279" height="157" rx="15.5" fill="none"/>
+  </g>
+  <g id="Group_28770" data-name="Group 28770" transform="translate(25 72.086)">
+    <text id="Formats_acceptés_:_JPEG_PDF_PNG_5Mo_max._" data-name="Formats acceptés : JPEG ,PDF, PNG (5Mo max.)" transform="translate(115 53.914)" fill="#9a9fa0" font-size="12" font-family="Degular-Regular, Degular"><tspan x="-115" y="0">Formats acceptés : JPEG ,PDF, PNG (5Mo max.)</tspan></text>
+    <text id="Glissez_et_déposez_votre_photo_ou_Cliquez_ici" data-name="Glissez et déposez votre photo ou Cliquez ici" transform="translate(2 -0.086)" fill="#9a9fa0" font-size="14" font-family="Degular-Medium, Degular" font-weight="500"><tspan x="-98" y="14">Glissez et déposez votre photo ou </tspan><tspan x="-30" y="30" fill="#7971f5" text-decoration="underline">Cliquez ici</tspan></text>
+  </g>
+  <g id="Image" transform="translate(127 28)">
+    <path id="Image-2" data-name="Image" d="M18.632,26H7.366C2.96,26,0,22.909,0,18.308V7.692C0,3.091,2.96,0,7.366,0H18.634C23.04,0,26,3.091,26,7.692V18.308C26,22.909,23.039,26,18.632,26ZM8.2,17.213c-.653,0-1.324.5-2.241,1.663l-.05.063c-.585.74-1.186,1.5-1.783,2.243a1.035,1.035,0,0,0-.211.823.931.931,0,0,0,.426.646,5.345,5.345,0,0,0,2.847.749H18.143a5.881,5.881,0,0,0,1.829-.278,4.832,4.832,0,0,0,2.939-2.745,4.883,4.883,0,0,0,.256-3.563A2.942,2.942,0,0,0,22.5,15.8L22.5,15.79a14.055,14.055,0,0,0-2.429-2.075,1.858,1.858,0,0,0-.987-.306,2.436,2.436,0,0,0-1.771,1.048c-.23.31-.429.639-.64.987l-.135.222-.009.015a7.388,7.388,0,0,1-2.549,2.883,3.233,3.233,0,0,1-1.57.436,4.571,4.571,0,0,1-2.547-1.021,7.138,7.138,0,0,0-1.075-.636A1.456,1.456,0,0,0,8.2,17.213ZM8.449,5.2A3.25,3.25,0,1,0,11.7,8.45,3.253,3.253,0,0,0,8.449,5.2Z" transform="translate(0 0)" fill="#4c5557"/>
+  </g>
+</svg>

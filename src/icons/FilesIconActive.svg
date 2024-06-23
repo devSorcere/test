@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_31536" data-name="Group 31536" transform="translate(-959 -698)">
+    <rect id="Rectangle_17347" data-name="Rectangle 17347" width="16" height="16" transform="translate(959 698)" fill="none" opacity="0.358"/>
+    <g id="Login" transform="translate(975 700) rotate(90)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M8.72,1.2H1.6A.6.6,0,0,1,1.6,0H8.72a.6.6,0,1,1,0,1.2Z" transform="translate(-1 7.398)" fill="#d9f777"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M.6,5.882A.6.6,0,0,1,.177,4.854L2.1,2.941.177,1.028A.6.6,0,0,1,1.026.175L3.375,2.515a.6.6,0,0,1,0,.853L1.026,5.706A.6.6,0,0,1,.6,5.882Z" transform="translate(5.522 5.059)" fill="#d9f777"/>
+      <path id="Stroke_4" data-name="Stroke 4" d="M4.52,16H.6a.6.6,0,1,1,0-1.2H4.52a2.354,2.354,0,0,0,2.354-2.348V3.54A2.346,2.346,0,0,0,4.528,1.2H.61A.6.6,0,1,1,.61,0H4.528a3.549,3.549,0,0,1,3.55,3.54v8.912A3.557,3.557,0,0,1,4.52,16Z" transform="translate(4.922 0)" fill="#d9f777"/>
+    </g>
+  </g>
+</svg>

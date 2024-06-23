@@ -1,0 +1,11 @@
+<svg id="Group_31980" data-name="Group 31980" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Rectangle_12064" data-name="Rectangle 12064" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1">
+    <rect width="40" height="40" rx="14" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" rx="13.5" fill="none"/>
+  </g>
+  <g id="Login" transform="translate(30 12) rotate(90)">
+    <path id="Stroke_1" data-name="Stroke 1" d="M10.672,1.507H1.754A.754.754,0,1,1,1.754,0h8.918a.754.754,0,0,1,0,1.507Z" transform="translate(-1 9.246)" fill="#fff"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M.754,7.369A.754.754,0,0,1,.222,6.081l2.406-2.4L.222,1.288A.754.754,0,0,1,1.286.22L4.228,3.15a.754.754,0,0,1,0,1.068L1.286,7.149A.751.751,0,0,1,.754,7.369Z" transform="translate(6.75 6.316)" fill="#fff"/>
+    <path id="Stroke_4" data-name="Stroke 4" d="M5.663,20H.754a.75.75,0,1,1,0-1.5H5.663a2.946,2.946,0,0,0,2.95-2.935V4.425A2.936,2.936,0,0,0,5.673,1.5H.765a.75.75,0,1,1,0-1.5H5.673A4.441,4.441,0,0,1,10.12,4.425v11.14A4.451,4.451,0,0,1,5.663,20Z" transform="translate(5.88 0)" fill="#fff"/>
+  </g>
+</svg>

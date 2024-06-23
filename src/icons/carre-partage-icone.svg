@@ -1,0 +1,17 @@
+<svg id="carre-partage-icone" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_28684" data-name="Group 28684" transform="translate(-334 -394.947)">
+    <g id="Group_15" data-name="Group 15" transform="translate(0 -0.107)">
+      <path id="Stroke_3" data-name="Stroke 3" d="M5.76,2.88A2.88,2.88,0,1,1,2.88,0,2.88,2.88,0,0,1,5.76,2.88Z" transform="translate(356.24 405.107)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke_3-2" data-name="Stroke 3" d="M5.76,2.88A2.88,2.88,0,1,1,2.88,0,2.88,2.88,0,0,1,5.76,2.88Z" transform="translate(356.24 419.24)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <path id="Stroke_7" data-name="Stroke 7" d="M0,2.88A2.88,2.88,0,1,0,2.88,0,2.879,2.879,0,0,0,0,2.88Z" transform="translate(344 412.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Group_16" data-name="Group 16" transform="translate(0 0.309)">
+      <path id="Stroke_5" data-name="Stroke 5" d="M0,.588H7.235" transform="translate(349.814 412.799) rotate(-30)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Stroke_5-2" data-name="Stroke 5" d="M0,0H7.235" transform="translate(350.108 416.691) rotate(30)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="Rectangle_17248" data-name="Rectangle 17248" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1">
+    <rect width="40" height="40" rx="12" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" rx="11.5" fill="none"/>
+  </g>
+</svg>

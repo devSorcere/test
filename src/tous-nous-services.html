@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aide Projet</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+</head>
+
+<body id="Tous-nous-services" class="white_appearancee">
+    <div class="header_menu fl_row ai_c jc_s px-[5.83vw] pb-6">
+        <div class="nav fl_row ai_c">
+            <div class="logo">
+                <img src="./images/Aideprojet-logo-dark.svg" alt="logo">
+            </div>
+            <div class="menu_list">
+                <ul class="p20 fl_row txt_black">
+                    <li>Formations <img src="./images/dropdown_arrow.svg"></li>
+                    <li class="active_menu">Services <img src="./images/dropdown_arrow.svg"></li>
+                    <li>Recruter & Hire</li>
+                </ul>
+            </div>
+            <div class="dropmenu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+        </div>
+        <div class="action-btn fl_row gp15">
+            <button class="btn-primary-service">Se connecter</button>
+            <button class="btn btn-primary_light2">S’inscrire</button>
+        </div>
+    </div>
+    <main class="fl_col" id="main">
+        <ul class="breadcrumb_page container_boxed">
+            <li class="p14 breadcrumb__item inactive txt_black">Accueil</li>
+            <li class="p14 breadcrumb__item inactive txt_black">Services</li>
+            <li class="p14 breadcrumb__item active txt_black">Tous nos services</li>
+        </ul>
+        <section id="block01" class="container_full">
+            <div class="block_header fl_row jc_s ai_c ">
+                <p class="block-title p80 txt_black" style="padding: 0 3.91vw;">Tous nous <span class="txt_primary">services</span> </p>
+                <div class="filter_box fl_row gp25 txt_black " style="padding: 0 8vw;">
+                    <!-- <div class="flex flex-col">
+                        <div class="flex flex-row btn-recommend px-6" onclick="toggledrop()">
+                            <p class="text-lg Degular-medium">Recommandés</p>
+                            <img class="drop-down-arrow" src="icons/fleche-indication-bas.svg" alt="">
+                        </div>
+                        <div class="drop-container flex-col hide">
+                            <div class="">
+                                <div class="flex gap-4 pb-4">
+                                    <label class="container-checkbox-drop">
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+
+                                    </label>
+                                    <p class="Degular-medium text-lg">Recommandés</p>
+                                </div>
+                                <div class="flex gap-4">
+                                    <label class="container-checkbox-drop">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+
+                                    </label>
+                                    <p class="Degular-medium text-lg">Nouveaux</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="select flex flex-row btn-recommend px-6 mr-3">
+                        <div class="label" data-value="Recommandés">Recommandés</div>
+                        <i class="icon icon-chevron-bottom"></i>
+                        <div class="select__options drop-container">
+                            <form action="#" class="select-options-form">
+                                <label class="checkbox mb-2 last-of-type:mb-0 " for="Recommandés">
+                                    <input type="checkbox" name="Recommandés" id="Recommandés" />
+                                    Recommandés
+                                </label>
+                                <label class="checkbox mb-2 last-of-type:mb-0" for="Nouveaux">
+                                    <input type="checkbox" name="Nouveaux" id="Nouveaux" />
+                                    Nouveaux
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="flex flex-row justify-between filtre-btn px-6">
+                        <p class="text-lg sm:text-base Degular-medium">Filtrer</p>
+                        <img src="icons/filtre.svg" alt="">
+                    </div>
+                </div>
+                <!-- <script>
+                    function toggledrop() {
+                        var notificationsContainer = document.querySelector('.drop-container');
+                        notificationsContainer.classList.toggle('hide');
+
+                        var dropdownArrow = document.querySelector('.btn-recommend img');
+                        dropdownArrow.classList.toggle('rotate-180');
+                    }
+                </script> -->
+
+            </div>
+            <div class="block-wrapper fl_col gp56">
+                <div class="block-content txt_black fl_col gp32">
+                    <div class="grid-wrapper fl_row gp32">
+                        <div class="left-grid fl_col gp32 fl-1">
+                            <!-- <div class="box box-1">
+                                <div class="box-content ">
+                                    <img class="box_bk" src="./images/service-formalites-juridiques-light-mode.png"
+                                        alt="">
+                                    <div class="content-info pd30">
+                                        <p class="p29 w-300">Identité visuelle</p>
+                                        <div class="fl_col">
+                                            <p class="p11 w-300">à partir</p>
+                                            <div class="fl_row gp5 ai_c price">
+                                                <p class="p35 w-700">240€</p>
+                                                <p class="p11 w-300">Par <br> mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fl_row gp32">
+                                <div class="box box-2 fl-1">
+                                    <div class="box-content ">
+                                        <img class="box_bk" src="./images/service-comptabilite-fiscalite-light-mode.png"
+                                            alt="">
+                                        <div class="content-info pd30">
+                                            <p class="p29 w-300">Site web</p>
+                                            <div class="fl_col">
+                                                <p class="p11 w-300">à partir</p>
+                                                <div class="fl_row gp5 ai_c price">
+                                                    <p class="p35 w-700">230€</p>
+                                                    <p class="p11 w-300">Par <br> mois</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box box-3 fl-1">
+                                    <div class="box-content ">
+                                        <img class="box_bk" src="./images/service-devis-factures-light-mode.png" alt="">
+                                        <div class="content-info pd30">
+                                            <p class="p29 w-300">Réseaux sociaux</p>
+                                            <div class="fl_col">
+                                                <p class="p11 w-300">à partir</p>
+                                                <div class="fl_row gp5 ai_c price">
+                                                    <p class="p35 w-700">230€</p>
+                                                    <p class="p11 w-300">Par <br> mois</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>-->
+                            <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                    Fiscalité</p>
+                                <div class="absolute top-0">
+                                    <img src="./images/comptabilité.webp" alt="">
+                                </div>
+                                <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                    250€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                    <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-grid fl-1">
+                          
+                            <div class="border border-[#020F111A] rounded-[40px] w-[1120px] h-[727px] relative service-crd-mobile">
+                                <p class="font-gelica text-[48px] text-[#020F11] leading-[68px] pl-10 pt-10 service-title">App mobile
+                                    personnalisée</p>
+                                <div class="absolute left-0 top-0 crd-mobile-img">
+                                    <img src="./images/appMobile.webp" alt="">
+                                </div>
+                                <p class="font-degular text-[17px] text-[#020F11] absolute top-[595px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[52px] text-[#020F11] font-bold font-degular absolute left-10 top-[618px] prc">
+                                    1950€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[203px] top-[640px] per-month">
+                                    <p class="text-[17px] font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-wrapper fl_row gp32">
+                        <div class="right-grid fl-1">
+                            <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                    Fiscalité</p>
+                                <div class="absolute top-0">
+                                    <img src="./images/comptabilité.webp" alt="">
+                                </div>
+                                <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                    250€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                    <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-grid fl_col gp32 fl-1">
+
+                            <div class="service-crd-holder fl_row gp32">
+                                <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                    <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                        Fiscalité</p>
+                                    <div class="absolute top-0">
+                                        <img src="./images/comptabilité.webp" alt="">
+                                    </div>
+                                    <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                        de</p>
+                                    <p
+                                        class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                        250€</p>
+                                    <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                        <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                    </div>
+                                </div>
+                                <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                    <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                        Fiscalité</p>
+                                    <div class="absolute top-0">
+                                        <img src="./images/comptabilité.webp" alt="">
+                                    </div>
+                                    <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                        de</p>
+                                    <p
+                                        class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                        250€</p>
+                                    <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                        <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-wrapper fl_row gp32">
+                       
+                        <div class="left-grid fl_col gp32 fl-1">
+                            
+                            <div class="border border-[#020F111A] rounded-[40px] w-[1120px] h-[727px] relative service-crd-mobile">
+                                <p class="font-gelica text-[48px] text-[#020F11] leading-[68px] pl-10 pt-10 service-title">App mobile
+                                    personnalisée</p>
+                                <div class="absolute left-0 top-0 crd-mobile-img">
+                                    <img src="./images/appMobile.webp" alt="">
+                                </div>
+                                <p class="font-degular text-[17px] text-[#020F11] absolute top-[595px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[52px] text-[#020F11] font-bold font-degular absolute left-10 top-[618px] prc">
+                                    1950€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[203px] top-[640px] per-month">
+                                    <p class="text-[17px] font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="right-grid fl-1">
+                            <!-- <div class="box box-4">
+                                <div class="box-content ">
+                                    <img class="box_bk" src="./images/App mobile personnalisée_shape.png" alt="">
+                                    <div class="content-info pd30">
+                                        <p class="p48 w-300">App mobile personnalisée</p>
+                                        <div class="fl_col">
+                                            <p class="p11 w-300">à partir</p>
+                                            <div class="fl_row gp5 ai_c price">
+                                                <p class="p35 w-700">1950€</p>
+                                                <p class="p11 w-300">Par <br> mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                    Fiscalité</p>
+                                <div class="absolute top-0">
+                                    <img src="./images/comptabilité.webp" alt="">
+                                </div>
+                                <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                    250€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                    <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-wrapper fl_row gp32">
+                        <div class="right-grid fl-1">
+                            <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                    Fiscalité</p>
+                                <div class="absolute top-0">
+                                    <img src="./images/comptabilité.webp" alt="">
+                                </div>
+                                <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                    250€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                    <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-grid fl_col gp32 fl-1">
+
+                            <div class="service-crd-holder fl_row gp32">
+                                <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                    <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                        Fiscalité</p>
+                                    <div class="absolute top-0">
+                                        <img src="./images/comptabilité.webp" alt="">
+                                    </div>
+                                    <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                        de</p>
+                                    <p
+                                        class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                        250€</p>
+                                    <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                        <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                    </div>
+                                </div>
+                                <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                    <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                        Fiscalité</p>
+                                    <div class="absolute top-0">
+                                        <img src="./images/comptabilité.webp" alt="">
+                                    </div>
+                                    <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                        de</p>
+                                    <p
+                                        class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                        250€</p>
+                                    <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                        <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-wrapper fl_row gp32">
+                        <div class="left-grid fl_col gp32 fl-1">
+                            <!-- <div class="box box-1">
+                                <div class="box-content ">
+                                    <img class="box_bk" src="./images/service-formalites-juridiques-light-mode.png"
+                                        alt="">
+                                    <div class="content-info pd30">
+                                        <p class="p29 w-300">Identité visuelle</p>
+                                        <div class="fl_col">
+                                            <p class="p11 w-300">à partir</p>
+                                            <div class="fl_row gp5 ai_c price">
+                                                <p class="p35 w-700">240€</p>
+                                                <p class="p11 w-300">Par <br> mois</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fl_row gp32">
+                                <div class="box box-2 fl-1">
+                                    <div class="box-content ">
+                                        <img class="box_bk" src="./images/service-comptabilite-fiscalite-light-mode.png"
+                                            alt="">
+                                        <div class="content-info pd30">
+                                            <p class="p29 w-300">Site web</p>
+                                            <div class="fl_col">
+                                                <p class="p11 w-300">à partir</p>
+                                                <div class="fl_row gp5 ai_c price">
+                                                    <p class="p35 w-700">230€</p>
+                                                    <p class="p11 w-300">Par <br> mois</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box box-3 fl-1">
+                                    <div class="box-content ">
+                                        <img class="box_bk" src="./images/service-devis-factures-light-mode.png" alt="">
+                                        <div class="content-info pd30">
+                                            <p class="p29 w-300">Réseaux sociaux</p>
+                                            <div class="fl_col">
+                                                <p class="p11 w-300">à partir</p>
+                                                <div class="fl_row gp5 ai_c price">
+                                                    <p class="p35 w-700">230€</p>
+                                                    <p class="p11 w-300">Par <br> mois</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>-->
+                            <div class="border border-[#020F111A] rounded-[40px] h-[727px] w-[544px] relative service-crd">
+                                <p class="font-gelica text-[40px] text-[#020F11] pl-[40px] pt-[40px] service-title">Comptabilité -
+                                    Fiscalité</p>
+                                <div class="absolute top-0">
+                                    <img src="./images/comptabilité.webp" alt="">
+                                </div>
+                                <p class="font-degular text-base text-[#020F11] absolute top-[602px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[48px] text-[#020F11] font-bold font-degular absolute left-10 top-[623px] prc">
+                                    250€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[166px] top-[641px] per-month">
+                                    <p class="font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-grid fl-1">
+                          
+                            <div class="border border-[#020F111A] rounded-[40px] w-[1120px] h-[727px] relative service-crd-mobile">
+                                <p class="font-gelica text-[48px] text-[#020F11] leading-[68px] pl-10 pt-10 service-title">App mobile
+                                    personnalisée</p>
+                                <div class="absolute left-0 top-0 crd-mobile-img">
+                                    <img src="./images/appMobile.webp" alt="">
+                                </div>
+                                <p class="font-degular text-[17px] text-[#020F11] absolute top-[595px] left-10 aprt">À partir
+                                    de</p>
+                                <p
+                                    class="text-[52px] text-[#020F11] font-bold font-degular absolute left-10 top-[618px] prc">
+                                    1950€</p>
+                                <div class="w-[34px] h-[33px] absolute left-[203px] top-[640px] per-month">
+                                    <p class="text-[17px] font-degular text-[#020F11] leading-3">Par mois</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container_full_2 mt-[125px]" id="block02">
+            <div class="block-wrapper pd48 fl_row ai_e">
+                <img class="bg_block rd40" src="./images/forme-un-projet-service_shape_bg.svg" alt="">
+                <img class="block_img" src="./images/femme-bureau-telephone.png" alt="">
+                <div class="box_wrapper txt_white fl_col gp40 pd48 rd40 ">
+                    <div class="fl_col ">
+                        <div class="container-full-2-title"><p class="text-[64px] Gelica-regular leading-[72px] container-full-2-title">Un projet ?</p></div>
+                        
+                        <div class="w-[420px] h-[64px] container-full-2-desc">
+                            <p class="text-2xl Degular-regular leading-[32px] ">Renseignez-vous auprès de nos experts pour avoir un accompagnent sur mesure.</p>
+                        </div>   
+                    </div>
+                    <div class="fl_row gp24 ai_c">
+                        <div class="container-full-2-btn">
+                            <p class="btn btn-primary text-[18px] w-[188px] h-[55px]">Écrivez-nous <img class="w-[14px] h-[11px]" src="./images/right_arrow_white.svg" alt="">
+                        </div>
+                        
+                        </p>
+                        <div class="container-full-2-divider">
+                            <p class="p24">|</p>
+                        </div>
+                        
+                        <div class="fl_row ai_c gp12 container-full-2-call">
+                            <img src="./images/phone_icon_white.svg" alt="">
+                            <p class="p18 w-500">Appelez-nous : 06 61 47 39 86 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div style="background-color: black; margin-top:6.25vw ;">
+        <footer class="w-full footer">
+            <div class="py-[72px] border-y border-[#ffffff30]">
+                <div class="a-container">
+                    <div class="flex flex-col lg:flex-row justify-between">
+                        <div class="flex flex-col lg:flex-row justify-start mb-8 lg:mb-0">
+                            <div class="bg-turmeric rounded-[30px] w-[288px] h-[381px] mr-[35px] mb-6 lg:mb-0 relative">
+                                <img class="max-w-none h-full" src="./images/homme-tabeltte-finacez-projet_result.webp"
+                                    alt="homme-tabeltte-finacez-projet_result">
+                            </div>
+                            <div class="flex flex-col">
+                                <h4 class="footer--title mb-6.5">Centre d’aide</h4>
+                                <a href="#" class="btn--contact btn--primary mb-4 max-w-[235px] lg:max-w-none">Nous
+                                    contacter</a>
+                                <a href="#" class="btn--faq btn--secondary max-w-[235px] lg:max-w-none">FAQ</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col lg:flex-row justify-start">
+                            <div
+                                class="flex flex-col navigate w-full lg:w-[240px] 2xl:w-[288px] lg:mr-[20px] 2xl:mr-[144px] mb-8 lg:mb-0">
+                                <h4 class="footer--title mb-8.5">Naviguez</h4>
+                                <a href="#" class="item is-parent js-accordion">Formations</a>
+                                <a href="#" class="item is-parent js-accordion">Services digitaux</a>
+                                <a href="#" class="item">À propos</a>
+                            </div>
+                            <div class="flex flex-col lg:mr-[20px] 2xl:mr-[144px]">
+                                <h4 class="footer--title mb-8.5">Suivez-nous</h4>
+                                <a href="#" class="flex items-center text-xl leading-[26px] mb-6"><i
+                                        class="icon icon-instagram text-md leading-[26px] mr-3"></i>Instagram</a>
+                                <a href="#" class="flex items-center text-xl leading-[26px] mb-6"><i
+                                        class="icon icon-facebook text-md leading-[26px] mr-3"></i>Facebook</a>
+                                <a href="#" class="flex items-center text-xl leading-[26px] mb-6"><i
+                                        class="icon icon-linkedin text-md leading-[26px] mr-3"></i>Linkedin</a>
+                                <a href="#" class="flex items-center text-xl leading-[26px] mb-6"><i
+                                        class="icon icon-twitter text-md leading-[26px] mr-3"></i>Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="lg:h-[77px] a-container flex flex-col lg:flex-row justify-between items-start lg:items-center p-5 lg:p-0">
+                <p class="inline-block text-sm mb-3.5 lg:mb-0">© 2023 Aideprojet. Tous droits réservés</p>
+                <div class="flex flex-col lg:flex-row lg:justify-end">
+                    <a href="#" class="text-sm lg:ml-[56px] mb-3.5 lg:mb-0 last-of-type:mb-0">Politique de
+                        confidentialité</a>
+                    <a href="#" class="text-sm lg:ml-[56px] mb-3.5 lg:mb-0 last-of-type:mb-0">Conditions
+                        d’utilisation</a>
+                    <a href="#" class="text-sm lg:ml-[56px] mb-3.5 lg:mb-0 last-of-type:mb-0">Mentions légales</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/qjd8gvv.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link>
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="dashboard">
+        <div class="dashboard-layout">
+            <div class="left-side">
+                <section class="left-nav-primary">
+                    <div class="nav-wrapper relative">
+                        <div class="fl_col gp20 ai_c">
+                            <img class="logo-dashboard" src="images/Aideprojet-logo-academy.svg" alt="">
+                            <img class="banner-header" src="images/compte-formateur-img.svg" alt="">
+                        </div>
+                        <div class="menus-list pd24 fl_col">
+                            <div class="menus fl_col">
+                                <div class="menu-nav fl_col gp8 degular txt_grey">
+                                    <p class="p16 w-100">Cours</p>
+                                    <ul class="fl_col gp16 txt_grey">
+                                        <a href="./tableau-de-bord.html">
+                                            <li>
+                                                <img src="icons/menu-icone.svg" alt="">
+                                                Tableau de bord
+                                            </li>
+                                        </a>
+                                        <a href="./cours-en-direct.html">
+                                            <li>
+                                                <img src="icons/camera-icone.svg" alt="">
+                                                Cours en direct
+                                            </li>
+                                        </a>
+                                        <a href="./cours.html">
+                                            <li>
+                                                <img src="icons/cours-video.svg" alt="">
+                                                Cours
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li>
+                                                <img src="icons/Calendar.svg" alt="">
+                                                Mon planning
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li>
+                                                <img src="icons/facture-icone.svg" alt="">
+                                                Paiements
+                                            </li>
+                                        </a>
+                                        <li>
+                                            <img src="icons/securité-utilisateur-icone.svg" alt="">
+                                            Mon profile
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="myaccount-options fl_col gp8 txt_grey">
+                                    <p class="p16">Mon compte</p>
+                                    <ul class="fl_col gp16 txt_grey pb-16">
+                                        <li class="active-item degular">
+                                            <img src="icons/securité-utilisateur-icone.svg" alt="">
+                                            Mon compte
+                                        </li>
+                                        <li>
+                                            <img src="icons/preferences.svg" alt="">
+                                            Mes préférences
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-footer txt_center fl_col txt_grey ">
+
+                                <div class="faqs fl_col ai_c gp6">
+                                    <img src="icons/help-circle-svgrepo-com.svg" alt="">
+                                    <p class="p14">
+                                        Vous avez une question ou <br> besoin de réponses ?
+                                    </p>
+                                    <p class="p14 faq">
+                                        Aide et FAQ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="right-side fl_col gp20">
+                <section class="header-dashboard">
+                    <div class="header-dashboard-wrapper fl_row px-8 jc_s ai_c">
+                        <div class="">
+                            <p class="title p40 gelica w-200">Mon compte</p>
+                        </div>
+                        <div class="user-nav fl_row gp16">
+                            <div class="fl_row gp16 actions">
+                                <div class="actions-box"> <img src="icons/loupe-icone.svg" alt=""></div>
+                                <div class="notifications-box ">
+                                    <div class="actions-box notication-icon" onclick="toggleNotifications()">
+                                        <img src="icons/Notification.svg" alt="">
+                                    </div>
+                                    <div class="notifications-container hide">
+                                        <div class="overlay" onclick="toggleNotifications()"></div>
+                                        <div class="noti-wrapper fl_col jc_s gp24">
+                                            <div class="fl_col gp20">
+                                                <div class="noti-header">
+                                                    <p class="p32 gelica">Notifications</p>
+                                                </div>
+                                                <div class="noti-body fl_col gp24 degular ">
+                                                    <div class="noti-body-head fl_row jc_s ai_c">
+                                                        <div class="tab fl_row ai_c">
+                                                            <p class="p16 active-tab">Tout</p>
+                                                            <p class="p16">Non lu</p>
+                                                        </div>
+                                                        <p class="p16 txt_primary w-500">Tout marquer comme lu</p>
+                                                    </div>
+                                                    <div class="listing-notifications fl_col gp16">
+                                                        <div class="card-notification paiment-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="icons/download-icon-arrow-pink.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                                            <p class="noti-description p16">Un paiement
+                                                                                concernant la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side fl_col ai_s">
+                                                                    <p class="p24 w-500">6 000 €</p>
+                                                                </div>
+                                                                <span class="pending-alert"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification formation-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="images/homme-femme-site-web.png"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Formation
+                                                                            </p>
+                                                                            <p class="noti-description p16">Votre cours
+                                                                                démarre d’ici 5min,
+                                                                                préparez vous et rejoignez le live.
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification formation-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_c pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="images/homme-femme-site-web.png"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Formation
+                                                                            </p>
+                                                                            <p class="noti-description p16">David a
+                                                                                écrit un commentaire
+                                                                                dans la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side">
+                                                                    <button>Répondre</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-notification paiment-notification">
+                                                            <div
+                                                                class="card-wrapper fl_row ai_s pd20-t-b pd20-r-l gp16 jc_s">
+                                                                <div class="fl_row gp17 ai_c noti-content">
+                                                                    <div class="noti-img">
+                                                                        <img src="icons/download-icon-arrow-pink.svg"
+                                                                            alt="">
+                                                                    </div>
+                                                                    <div class="noti-info fl_col gp16">
+                                                                        <div class="fl_col gp8">
+                                                                            <p class="info-title p12 w-400">Paiement</p>
+                                                                            <p class="noti-description p16">Un paiement
+                                                                                concernant la
+                                                                                formation
+                                                                                <span class="txt_primary">“Analyste en
+                                                                                    cybersécurité”</span>
+                                                                            </p>
+                                                                        </div>
+                                                                        <p class="noti-time p12">Il y a 1min</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="noti-right-side fl_col ai_s">
+                                                                    <p class="p24 w-500">6 000 €</p>
+                                                                </div>
+                                                                <span class="pending-alert"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="noti-footer">
+                                                <p class="p18 w-600">Afficher toutes les notifications</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-menu fl_row ai_c gp11 pd9">
+                                <img class="user-avatar" src="images/formateur-profile.png" alt="">
+                                <img class="dropdown-menu" src="icons/dropdown_arrow - white.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="compte-container flex flex-col items-center justify-center">
+                    <div class="tool-box-container">
+                        <div class="tools-box fl_row ai_c jc_s">
+                            <div class="tab-program fl_row ai_c gp10 active-tab1 tab-element">
+                                <p class="p20 pgrey Degular-medium">Mon identité</p>
+                            </div>
+                            <div class="tab-comments fl_row ai_c gp10 tab-element">
+                                <p class="p20 pgrey opacity-60">Mes identifiants
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-570">
+                        <p class="Gelica-light text-3xl mt-8 mb-4">Identité</p>
+                        <div class="flex flex-row gap-4 identity-form w-570 ">
+                            <div class="relative w-full mb-4 last-of-type:mb-0 xl:w-[calc(50%-8px)]">
+                                <input
+                                    class="peer placeholder-transparent h-[55px] px-4 pt-[23px] pb-[9px] inline-block bg-transparent w-full border border-white text-white opacity-100 rounded-2xl focus:outline-none placeholder-shown:opacity-80 focus:opacity-100"
+                                    placeholder="" type="text" name="first-name" value="Robert" id="first-name" />
+                                <label for="first-name"
+                                    class="opacity-60  top-2 absolute left-4 text-white peer-placeholder-shown:text-[18px] transition-all peer-placeholder-shown:top-3.5 peer-focus:top-2 peer-focus:text-xs peer-[:not(:placeholder-shown)]:text-xs">
+                                    Nom
+                                </label>
+                            </div>
+                            <div class="relative w-full mb-4 last-of-type:mb-0 xl:w-[calc(50%-8px)]">
+                                <input
+                                    class="peer placeholder-transparent h-[55px] px-4 pt-[23px] pb-[9px] inline-block bg-transparent w-full border border-white text-white opacity-100 rounded-2xl focus:outline-none placeholder-shown:opacity-80 focus:opacity-100"
+                                    placeholder="Nom de la société (optionnel)" type="text" name="last-name"
+                                    value="Mariane" id="last-name" />
+                                <label for="last-name"
+                                    class="opacity-60  top-2 absolute left-4 text-white peer-placeholder-shown:text-[18px] transition-all peer-placeholder-shown:top-3.5 peer-focus:top-2 peer-focus:text-xs peer-[:not(:placeholder-shown)]:text-xs">
+                                    prénom
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between mb-4 phone-container w-570 ">
+                            <div class="w-[80px]">
+                                <div class="select select--for-input">
+                                    <div class="label" data-value="fr"><img class="w-[19px]"
+                                            src="images/france-flag.svg" alt="fr"></div>
+                                    <i class="icon icon-chevron-bottom"></i>
+                                    <div class="select__options">
+                                        <ul>
+                                            <li class="js-country mb-2 last-of-type:mb-0" data-value="fr"><img
+                                                    class="w-[19px]" src="images/france-flag.svg" alt="fr"></li>
+                                            <li class="js-country mb-2 last-of-type:mb-0" data-value="uk"><img
+                                                    class="w-[19px]" src="images/uk-flag.svg" alt="uk"></li>
+                                            <li class="js-country mb-2 last-of-type:mb-0" data-value="usa"><img
+                                                    class="w-[19px]" src="images/usa-flag.svg" alt="use"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative w-[calc(100%-80px)] flex">
+                                <input type="text" id="phone-input"
+                                    class="peer placeholder-transparent h-[55px] px-4 pt-[23px] pb-[9px] inline-block bg-transparent w-full border border-white text-white opacity-100 rounded-r-2xl focus:outline-none placeholder-shown:opacity-80 focus:opacity-100"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="06 12 34 56 78 (optionnel)"
+                                    value="06 12 34 56 78">
+                                <label for="phone-input"
+                                    class="opacity-60  top-2 absolute left-4 text-white peer-placeholder-shown:text-[18px] transition-all peer-placeholder-shown:top-3.5 peer-focus:top-2 peer-focus:text-xs peer-[:not(:placeholder-shown)]:text-xs">
+                                    06 12 34 56 78 (optionnel)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="w-full pb-12">
+                            <div class="relative">
+                                <input
+                                    class="peer placeholder-transparent h-[55px] px-4 pt-[23px] pb-[9px] inline-block bg-transparent w-full border border-white text-white opacity-100 rounded-2xl focus:outline-none placeholder-shown:opacity-80 focus:opacity-100"
+                                    placeholder="Adresse" type="text" name="adresse" id="adresse" value="Bordeaux" />
+                                <img class="position-icon" src="icons/position-petit.svg">
+                                <label for="adresse"
+                                    class="opacity-60  top-2 absolute left-4 text-white peer-placeholder-shown:text-[18px] transition-all peer-placeholder-shown:top-3.5 peer-focus:top-2 peer-focus:text-xs peer-[:not(:placeholder-shown)]:text-xs">
+                                    Ma localisation
+                                </label>
+                            </div>
+                        </div>
+                        <p class="Gelica-light text-3xl mb-4">Informations générales</p>
+                        <div class="relative w-full last-of-type:mb-0  w-570 pb-12">
+                            <input
+                                class="peer placeholder-transparent h-[55px] px-4 pt-[23px] pb-[9px] inline-block bg-transparent w-full border border-white text-white opacity-100 rounded-2xl focus:outline-none placeholder-shown:opacity-80 focus:opacity-100"
+                                placeholder="Date de naissance" type="text" name="mm-aa" id="mm-aa"
+                                value="16/07/1990" />
+                            <img class="position-icon" src="icons/calendrier (1).svg" alt="">
+                            <label for="mm-aa"
+                                class="opacity-60  top-2 absolute left-4 text-white peer-placeholder-shown:text-[18px] transition-all peer-placeholder-shown:top-3.5 peer-focus:top-2 peer-focus:text-xs peer-[:not(:placeholder-shown)]:text-xs">
+                                Date de naissance
+                            </label>
+                        </div>
+                        <p class="Gelica-light text-3xl mb-4">Sexe</p>
+                        <div class="flex  gap-4">
+                            <p class="selected-sexe p18 flex items-center justify-center">Femme</p>
+                            <p class="p18 un-selected-sexe flex items-center justify-center opacity-60">Homme</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <script>
+                function toggleNotifications() {
+                    var notificationsContainer = document.querySelector('.notifications-container');
+                    notificationsContainer.classList.toggle('hide');
+                }
+
+            </script>
+        </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

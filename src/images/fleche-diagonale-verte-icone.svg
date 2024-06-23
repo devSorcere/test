@@ -1,0 +1,13 @@
+<svg id="fleche-diagonale-verte-icone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17256" data-name="Rectangle 17256" width="36" height="36" fill="#020f11"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_17257" data-name="Rectangle 17257" width="42" height="42" fill="none"/>
+  <g id="Group_31267" data-name="Group 31267" transform="translate(3 3)">
+    <g id="Group_31267-2" data-name="Group 31267" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_29372" data-name="Path 29372" d="M35.995,30.078,36,3.738A3.852,3.852,0,0,0,32.261,0L5.916.005a3.721,3.721,0,1,0,.032,7.443l17.337,0L1.048,29.683a3.727,3.727,0,0,0,5.27,5.27L28.556,12.719l0,17.33a3.721,3.721,0,0,0,7.442.03" transform="translate(0 0)" fill="#020f11"/>
+    </g>
+  </g>
+</svg>

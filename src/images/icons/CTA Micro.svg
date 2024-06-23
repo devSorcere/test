@@ -1,0 +1,12 @@
+<svg id="CTA_Micro" data-name="CTA Micro" xmlns="http://www.w3.org/2000/svg" width="80" height="48" viewBox="0 0 80 48">
+  <rect id="Rectangle_15217" data-name="Rectangle 15217" width="80" height="48" rx="24" fill="rgba(255,255,255,0.1)"/>
+  <path id="Path_29147" data-name="Path 29147" d="M1042.966,991.83v12" transform="translate(-998.966 -973.83)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1" opacity="0.4"/>
+  <g id="micro-active-icone" transform="translate(12 14)">
+    <rect id="Rectangle_17078" data-name="Rectangle 17078" width="20" height="20" fill="none"/>
+    <path id="Voice" d="M7.089,19.087V17.249A8.017,8.017,0,0,1,0,9.293a.912.912,0,1,1,1.823,0,6.177,6.177,0,1,0,12.354,0,.912.912,0,1,1,1.823,0,8.017,8.017,0,0,1-7.088,7.956v1.838a.912.912,0,1,1-1.823,0Zm.746-5.562a4.1,4.1,0,0,1-4.1-4.1V4.1A4.1,4.1,0,0,1,7.835,0h.33a4.1,4.1,0,0,1,4.1,4.1V9.424a4.1,4.1,0,0,1-4.1,4.1Z" transform="translate(2)" fill="#fff"/>
+  </g>
+  <g id="fleche-bas-icone" transform="translate(51 14)">
+    <rect id="Rectangle_17078-2" data-name="Rectangle 17078" width="20" height="20" fill="none"/>
+    <path id="Union_175" data-name="Union 175" d="M19440.395,22252.738l-5.133-5.238a.879.879,0,0,1-.2-.953.851.851,0,0,1,1.406-.285l4.531,4.625,4.529-4.623a.837.837,0,0,1,.594-.264h.02a.851.851,0,0,1,.791.537.893.893,0,0,1-.191.963l-5.141,5.238a.827.827,0,0,1-1.207,0Z" transform="translate(-19431 -22239.5)" fill="#fff"/>
+  </g>
+</svg>

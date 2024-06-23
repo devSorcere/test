@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="402" height="582" viewBox="0 0 402 582">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.251" cy="0.306" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1b1760"/>
+      <stop offset="1" stop-color="#020f11"/>
+    </radialGradient>
+  </defs>
+  <path id="forme-aide-formateurs" d="M23,22.723V459.741a26.164,26.164,0,0,0,26.148,26.179h69.833a32.708,32.708,0,0,1,32.383,28.265c0,24.606.106,26.095.3,27.551A32.708,32.708,0,0,0,184.05,570H390.314A32.7,32.7,0,0,0,423,537.277v-44.6a32.7,32.7,0,0,0-32.686-32.723h-2.409A32.7,32.7,0,0,1,355.22,427.23V22.723A32.7,32.7,0,0,0,322.534-10H55.686A32.7,32.7,0,0,0,23,22.723" transform="translate(-22 11)" stroke="#7971f5" stroke-width="2" fill="url(#radial-gradient)"/>
+</svg>

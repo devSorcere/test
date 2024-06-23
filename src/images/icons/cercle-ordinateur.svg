@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_31326" data-name="Group 31326" transform="translate(-247 -3528.106)">
+    <g id="cercle-ordinateur" transform="translate(247 3528.106)" fill="#fff" stroke="#020f11" stroke-width="1" opacity="0.1">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.5" fill="none"/>
+    </g>
+    <path id="desktop" d="M52.308,40H27.692A3.721,3.721,0,0,0,24,43.75v17.5A3.721,3.721,0,0,0,27.692,65H38.769v2.5H35.077a1.25,1.25,0,0,0,0,2.5h9.846a1.25,1.25,0,0,0,0-2.5H41.231V65H52.308A3.721,3.721,0,0,0,56,61.25V43.75A3.721,3.721,0,0,0,52.308,40ZM27.692,42.5H52.308a1.24,1.24,0,0,1,1.231,1.25v12.5H26.462V43.75A1.24,1.24,0,0,1,27.692,42.5Zm24.615,20H27.692a1.24,1.24,0,0,1-1.231-1.25v-2.5H53.538v2.5A1.24,1.24,0,0,1,52.308,62.5Z" transform="translate(247 3513.106)" fill="#fff"/>
+  </g>
+</svg>

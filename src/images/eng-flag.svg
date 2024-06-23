@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_658" data-name="Ellipse 658" cx="8" cy="8" r="8" transform="translate(658 1564)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="bandeau-angleter" transform="translate(-60 -135)">
+    <g id="Mask_Group_35" data-name="Mask Group 35" transform="translate(-597 -1428)" clip-path="url(#clip-path)">
+      <g id="icons8-great_britain" transform="translate(653.429 1564)">
+        <path id="Path_27845" data-name="Path 27845" d="M2,10H27.143V26H2Z" transform="translate(-2 -10)" fill="#3f51b5"/>
+        <path id="Path_27846" data-name="Path 27846" d="M2,12.409l11.891,7.268,1.788-2.926L4.633,10H2Z" transform="translate(-2 -10)" fill="#fff"/>
+        <path id="Path_27847" data-name="Path 27847" d="M36.169,10H34.107L23.061,16.751l1.787,2.926,11.321-6.919Z" transform="translate(-11.026 -10)" fill="#fff"/>
+        <path id="Path_27848" data-name="Path 27848" d="M24.848,20.271,23.061,23.2,34.85,30.4h1.319V27.19Z" transform="translate(-11.026 -14.402)" fill="#fff"/>
+        <path id="Path_27849" data-name="Path 27849" d="M2,27.54V30.4H3.891l11.788-7.2-1.787-2.926Z" transform="translate(-2 -14.402)" fill="#fff"/>
+        <path id="Path_27850" data-name="Path 27850" d="M2,20H27.143v4.571H2Z" transform="translate(-2 -14.286)" fill="#fff"/>
+        <path id="Path_27851" data-name="Path 27851" d="M20,10h4.571V26H20Z" transform="translate(-9.714 -10)" fill="#fff"/>
+        <g id="Group_29607" data-name="Group 29607" transform="translate(0 0)">
+          <path id="Path_27852" data-name="Path 27852" d="M10.7,15.714,2,10.4v1.339l6.5,3.975ZM26.177,10l-9.35,5.714h2.191l8.125-4.965V10ZM19.761,20.286,27.143,24.8V23.458l-5.19-3.172Zm-9.808,0L2,25.146V26h.8l9.349-5.714ZM2,16.857H27.143v2.286H2Z" transform="translate(-2 -10)" fill="#e53935"/>
+          <path id="Path_27853" data-name="Path 27853" d="M22,10h2.286V26H22Z" transform="translate(-10.571 -10)" fill="#e53935"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_659" data-name="Ellipse 659" transform="translate(61 136)" fill="none" stroke="#020f11" stroke-width="1">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="8.5" fill="none"/>
+    </g>
+  </g>
+</svg>

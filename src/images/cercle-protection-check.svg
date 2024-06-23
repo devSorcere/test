@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="cercle-protection-check" transform="translate(-330 -1933)">
+    <circle id="Ellipse_693" data-name="Ellipse 693" cx="40" cy="40" r="40" transform="translate(330 1933)" fill="#7971f5" opacity="0.2"/>
+    <path id="shield-check" d="M65,40H35a3,3,0,0,0-3,3V54.021c0,16.8,14.216,22.377,17.063,23.323a2.912,2.912,0,0,0,1.875,0C53.788,76.4,68,70.824,68,54.021V43A3,3,0,0,0,65,40Zm0,14.023c0,14.7-12.441,19.617-15,20.472-2.537-.846-15-5.754-15-20.472V43H65ZM41.439,59.062a1.5,1.5,0,1,1,2.123-2.123L47,60.378l9.439-9.439a1.5,1.5,0,0,1,2.123,2.123l-10.5,10.5a1.5,1.5,0,0,1-2.123,0Z" transform="translate(320 1916)"/>
+  </g>
+</svg>
